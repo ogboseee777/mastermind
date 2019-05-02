@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.mastermind;
+package main.java.com.mycompany.mastermind;
+import java.awt.Color;
+import javax.swing.*;
 
 /**
  *
@@ -16,8 +18,114 @@ public class MastermindGUI extends javax.swing.JFrame {
      */
     public MastermindGUI() {
         initComponents();
+        jButton1.setBackground(Color.BLUE);
+        jButton2.setBackground(Color.BLUE);
+        jButton3.setBackground(Color.BLUE);
+        jButton4.setBackground(Color.BLUE);
+        jButton5.setBackground(Color.BLUE);
+        jButton6.setBackground(Color.BLUE);
+        jButton7.setBackground(Color.BLUE);
+        jButton8.setBackground(Color.BLUE);
+        jButton9.setBackground(Color.BLUE);
+        jButton10.setBackground(Color.BLUE);
+        jButton11.setBackground(Color.BLUE);
+        jButton12.setBackground(Color.BLUE);
+        jButton13.setBackground(Color.BLUE);
+        jButton14.setBackground(Color.BLUE);
+        jButton15.setBackground(Color.BLUE);
+        jButton16.setBackground(Color.BLUE);
+        jButton17.setBackground(Color.BLUE);
+        jButton18.setBackground(Color.BLUE);
+        jButton19.setBackground(Color.BLUE);
+        jButton20.setBackground(Color.BLUE);
+        jButton21.setBackground(Color.BLUE);
+        jButton22.setBackground(Color.BLUE);
+        jButton23.setBackground(Color.BLUE);
+        jButton24.setBackground(Color.BLUE);
+        jButton25.setBackground(Color.BLUE);
+        jButton26.setBackground(Color.BLUE);
+        jButton27.setBackground(Color.BLUE);
+        jButton28.setBackground(Color.BLUE);
+        jButton29.setBackground(Color.BLUE);
+        jButton30.setBackground(Color.BLUE);
+        jButton31.setBackground(Color.BLUE);
+        jButton32.setBackground(Color.BLUE);
+        jButton33.setBackground(Color.BLUE);
+        jButton34.setBackground(Color.BLUE);
+        jButton35.setBackground(Color.BLUE);
+        jButton36.setBackground(Color.BLUE);
+        jButton37.setBackground(Color.BLUE);
+        jButton38.setBackground(Color.BLUE);
+        jButton39.setBackground(Color.BLUE);
+        jButton40.setBackground(Color.BLUE);
+        jButton41.setBackground(Color.BLUE);
+        jButton42.setBackground(Color.BLUE);
+        jButton43.setBackground(Color.BLUE);
+        jButton44.setBackground(Color.BLUE);
+        
+        jButton5.setEnabled(false);
+        jButton6.setEnabled(false);
+        jButton7.setEnabled(false);
+        jButton8.setEnabled(false);
+        jButton9.setEnabled(false);
+        jButton10.setEnabled(false);
+        jButton11.setEnabled(false);
+        jButton12.setEnabled(false);
+        jButton13.setEnabled(false);
+        jButton14.setEnabled(false);
+        jButton15.setEnabled(false);
+        jButton16.setEnabled(false);
+        jButton17.setEnabled(false);
+        jButton18.setEnabled(false);
+        jButton19.setEnabled(false);
+        jButton20.setEnabled(false);
+        jButton21.setEnabled(false);
+        jButton22.setEnabled(false);
+        jButton23.setEnabled(false);
+        jButton24.setEnabled(false);
+        jButton25.setEnabled(false);
+        jButton26.setEnabled(false);
+        jButton27.setEnabled(false);
+        jButton28.setEnabled(false);
+        jButton29.setEnabled(false);
+        jButton30.setEnabled(false);
+        jButton31.setEnabled(false);
+        jButton32.setEnabled(false);
+        jButton33.setEnabled(false);
+        jButton34.setEnabled(false);
+        jButton35.setEnabled(false);
+        jButton36.setEnabled(false);
+        jButton37.setEnabled(false);
+        jButton38.setEnabled(false);
+        jButton39.setEnabled(false);
+        jButton40.setEnabled(false);
+        jButton41.setEnabled(false);
+        jButton42.setEnabled(false);
+        jButton43.setEnabled(false);
+        jButton44.setEnabled(false);
+        jButton45.setEnabled(false);
+        jButton46.setEnabled(false);
+        jButton47.setEnabled(false);
+        jButton48.setEnabled(false);
+        jButton49.setEnabled(false);
+        jButton50.setEnabled(false);
+        jButton51.setEnabled(false);
+        jButton52.setEnabled(false);
+        jButton53.setEnabled(false);
+        jButton54.setEnabled(false);        
     }
-
+    
+    boolean blocco=false;
+    boolean blocco1=false;
+    boolean blocco2=false;
+    boolean blocco3=false;
+    boolean blocco4=false;
+    boolean blocco5=false;
+    boolean blocco6=false;
+    boolean blocco7=false;
+    boolean blocco8=false;
+    boolean blocco9=false;
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -27,6 +135,7 @@ public class MastermindGUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jComboBox1 = new javax.swing.JComboBox<>();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -101,210 +210,491 @@ public class MastermindGUI extends javax.swing.JFrame {
         jButton52 = new javax.swing.JButton();
         jButton53 = new javax.swing.JButton();
         jButton54 = new javax.swing.JButton();
+        jButton55 = new javax.swing.JButton();
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("jButton1");
+        jButton1.setText(" ");
         jButton1.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
-        jButton2.setText("jButton1");
+        jButton2.setText(" ");
         jButton2.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jButton3.setText("jButton1");
+        jButton3.setText(" ");
         jButton3.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
-        jButton4.setText("jButton1");
+        jButton4.setText(" ");
         jButton4.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
-        jButton5.setText("jButton1");
+        jButton5.setText(" ");
         jButton5.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
 
-        jButton6.setText("jButton1");
+        jButton6.setText(" ");
         jButton6.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
-        jButton7.setText("jButton1");
+        jButton7.setText(" ");
         jButton7.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
-        jButton8.setText("jButton1");
+        jButton8.setText(" ");
         jButton8.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
 
-        jButton9.setText("jButton1");
+        jButton9.setText(" ");
         jButton9.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
 
-        jButton10.setText("jButton1");
+        jButton10.setText(" ");
         jButton10.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
 
-        jButton11.setText("jButton1");
+        jButton11.setText(" ");
         jButton11.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
 
-        jButton12.setText("jButton1");
+        jButton12.setText(" ");
         jButton12.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
 
-        jButton13.setText("jButton1");
+        jButton13.setText(" ");
         jButton13.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
 
-        jButton14.setText("jButton1");
+        jButton14.setText(" ");
         jButton14.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
 
-        jButton15.setText("jButton1");
+        jButton15.setText(" ");
         jButton15.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
 
-        jButton16.setText("jButton1");
+        jButton16.setText(" ");
         jButton16.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
 
-        jButton17.setText("jButton1");
+        jButton17.setText(" ");
         jButton17.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
 
-        jButton18.setText("jButton1");
+        jButton18.setText(" ");
         jButton18.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
 
-        jButton19.setText("jButton1");
+        jButton19.setText(" ");
         jButton19.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
 
-        jButton20.setText("jButton1");
+        jButton20.setText(" ");
         jButton20.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
 
-        jButton21.setText("jButton1");
+        jButton21.setText(" ");
         jButton21.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
 
-        jButton22.setText("jButton1");
+        jButton22.setText(" ");
         jButton22.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
 
-        jButton23.setText("jButton1");
+        jButton23.setText(" ");
         jButton23.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
 
-        jButton24.setText("jButton1");
+        jButton24.setText(" ");
         jButton24.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
 
-        jButton25.setText("jButton1");
+        jButton25.setText(" ");
         jButton25.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
 
-        jButton26.setText("jButton1");
+        jButton26.setText(" ");
         jButton26.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
 
-        jButton27.setText("jButton1");
+        jButton27.setText(" ");
         jButton27.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
 
-        jButton28.setText("jButton1");
+        jButton28.setText(" ");
         jButton28.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
 
-        jButton29.setText("jButton1");
+        jButton29.setText(" ");
         jButton29.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
 
-        jButton30.setText("jButton1");
+        jButton30.setText(" ");
         jButton30.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
 
-        jButton31.setText("jButton1");
+        jButton31.setText(" ");
         jButton31.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
 
-        jButton32.setText("jButton1");
+        jButton32.setText(" ");
         jButton32.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
 
-        jButton33.setText("jButton1");
+        jButton33.setText(" ");
         jButton33.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton33ActionPerformed(evt);
+            }
+        });
 
-        jButton34.setText("jButton1");
+        jButton34.setText(" ");
         jButton34.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
 
-        jButton35.setText("jButton1");
+        jButton35.setText(" ");
         jButton35.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
 
-        jButton36.setText("jButton1");
+        jButton36.setText(" ");
         jButton36.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
 
-        jButton37.setText("jButton1");
+        jButton37.setText(" ");
         jButton37.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton37ActionPerformed(evt);
+            }
+        });
 
-        jButton38.setText("jButton1");
+        jButton38.setText(" ");
         jButton38.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton38ActionPerformed(evt);
+            }
+        });
 
-        jButton39.setText("jButton1");
+        jButton39.setText(" ");
         jButton39.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton39ActionPerformed(evt);
+            }
+        });
 
-        jButton40.setText("jButton1");
+        jButton40.setText(" ");
         jButton40.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton40ActionPerformed(evt);
+            }
+        });
 
-        jButton41.setText("jButton1");
+        jButton41.setText(" ");
         jButton41.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
 
-        jButton42.setText("jButton1");
+        jButton42.setText(" ");
         jButton42.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton42ActionPerformed(evt);
+            }
+        });
 
-        jButton43.setText("jButton1");
+        jButton43.setText(" ");
         jButton43.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton43ActionPerformed(evt);
+            }
+        });
 
-        jButton44.setText("jButton1");
+        jButton44.setText(" ");
         jButton44.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton44.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton44ActionPerformed(evt);
+            }
+        });
 
-        jLabel1.setText("jLabel1");
+        jLabel1.setText("-");
 
-        jLabel2.setText("jLabel1");
+        jLabel2.setText("-");
 
-        jLabel3.setText("jLabel1");
+        jLabel3.setText("-");
 
-        jLabel4.setText("jLabel1");
+        jLabel4.setText("-");
 
-        jLabel5.setText("jLabel1");
+        jLabel5.setText("-");
 
-        jLabel6.setText("jLabel1");
+        jLabel6.setText("-");
 
-        jLabel7.setText("jLabel1");
+        jLabel7.setText("-");
 
-        jLabel8.setText("jLabel1");
+        jLabel8.setText("-");
 
-        jLabel9.setText("jLabel1");
+        jLabel9.setText("-");
 
-        jLabel10.setText("jLabel1");
+        jLabel10.setText("-");
 
-        jLabel11.setText("jLabel1");
+        jLabel11.setText("-");
 
-        jLabel12.setText("jLabel1");
+        jLabel12.setText("-");
 
-        jLabel13.setText("jLabel1");
+        jLabel13.setText("-");
 
-        jLabel14.setText("jLabel1");
+        jLabel14.setText("-");
 
-        jLabel15.setText("jLabel1");
+        jLabel15.setText("-");
 
-        jLabel16.setText("jLabel1");
+        jLabel16.setText("-");
 
-        jLabel17.setText("jLabel1");
+        jLabel17.setText("-");
 
-        jLabel18.setText("jLabel1");
+        jLabel18.setText("-");
 
-        jLabel19.setText("jLabel1");
+        jLabel19.setText("-");
 
-        jLabel20.setText("jLabel1");
+        jLabel20.setText("-");
 
-        jButton45.setText("jButton1");
+        jButton45.setText("OK");
         jButton45.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
 
-        jButton46.setText("jButton1");
+        jButton46.setText("OK");
         jButton46.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
 
-        jButton47.setText("jButton1");
+        jButton47.setText("OK");
         jButton47.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
 
-        jButton48.setText("jButton1");
+        jButton48.setText("OK");
         jButton48.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton48.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton48ActionPerformed(evt);
+            }
+        });
 
-        jButton49.setText("jButton1");
+        jButton49.setText("OK");
         jButton49.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton49ActionPerformed(evt);
+            }
+        });
 
-        jButton50.setText("jButton1");
+        jButton50.setText("OK");
         jButton50.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton50ActionPerformed(evt);
+            }
+        });
 
-        jButton51.setText("jButton1");
+        jButton51.setText("OK");
         jButton51.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton51.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton51ActionPerformed(evt);
+            }
+        });
 
-        jButton52.setText("jButton1");
+        jButton52.setText("OK");
         jButton52.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton52ActionPerformed(evt);
+            }
+        });
 
-        jButton53.setText("jButton1");
+        jButton53.setText("OK");
         jButton53.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton53.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton53ActionPerformed(evt);
+            }
+        });
 
-        jButton54.setText("jButton1");
+        jButton54.setText("OK");
         jButton54.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton54ActionPerformed(evt);
+            }
+        });
+
+        jButton55.setText("OK");
+        jButton55.setPreferredSize(new java.awt.Dimension(50, 50));
+        jButton55.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton55ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -437,8 +827,9 @@ public class MastermindGUI extends javax.swing.JFrame {
                     .addComponent(jButton47, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(49, Short.MAX_VALUE))
+                    .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -448,7 +839,8 @@ public class MastermindGUI extends javax.swing.JFrame {
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -561,6 +953,288 @@ public class MastermindGUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        cambiaColore(jButton1);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        cambiaColore(jButton2);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        cambiaColore(jButton3);
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        cambiaColore(jButton4);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+
+        jButton1.setVisible(false);
+        jButton2.setVisible(false);
+        jButton3.setVisible(false);
+        jButton4.setVisible(false);
+        jButton55.setVisible(false);
+        
+        jButton5.setEnabled(true);
+        jButton6.setEnabled(true);
+        jButton7.setEnabled(true);
+        jButton8.setEnabled(true);
+        jButton45.setEnabled(true);
+        
+    }//GEN-LAST:event_jButton55ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        cambiaColore(jButton5);
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        cambiaColore(jButton6);
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        cambiaColore(jButton7);
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        cambiaColore(jButton8);
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        blocco=true;
+        jButton9.setEnabled(true);
+        jButton10.setEnabled(true);
+        jButton11.setEnabled(true);
+        jButton12.setEnabled(true);
+        jButton46.setEnabled(true);
+        
+        
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        cambiaColore1(jButton9);
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        cambiaColore1(jButton10);
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        cambiaColore1(jButton11);
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        cambiaColore1(jButton12);
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+        blocco1=true;
+        jButton13.setEnabled(true);
+        jButton14.setEnabled(true);
+        jButton15.setEnabled(true);
+        jButton16.setEnabled(true);
+        jButton47.setEnabled(true);
+        
+        
+    }//GEN-LAST:event_jButton46ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        cambiaColore2(jButton13);
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        cambiaColore2(jButton14);
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        cambiaColore2(jButton15);
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        cambiaColore2(jButton16);
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+        blocco2=true;
+        jButton17.setEnabled(true);
+        jButton18.setEnabled(true);
+        jButton19.setEnabled(true);
+        jButton20.setEnabled(true);
+        jButton48.setEnabled(true);
+        
+    }//GEN-LAST:event_jButton47ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        cambiaColore3(jButton17);
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        cambiaColore3(jButton18);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        cambiaColore3(jButton19);
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        cambiaColore3(jButton20);
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
+        blocco3=true;
+        jButton21.setEnabled(true);
+        jButton22.setEnabled(true);
+        jButton23.setEnabled(true);
+        jButton24.setEnabled(true);
+        jButton49.setEnabled(true);
+    }//GEN-LAST:event_jButton48ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        cambiaColore4(jButton21);
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        cambiaColore4(jButton22);
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        cambiaColore4(jButton23);
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        cambiaColore4(jButton24);
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
+        blocco4=true;
+        jButton25.setEnabled(true);
+        jButton26.setEnabled(true);
+        jButton27.setEnabled(true);
+        jButton28.setEnabled(true);
+        jButton50.setEnabled(true);
+    }//GEN-LAST:event_jButton49ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        cambiaColore5(jButton25);
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        cambiaColore5(jButton26);
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        cambiaColore5(jButton27);
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        cambiaColore5(jButton28);
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
+        blocco5=true;
+        jButton29.setEnabled(true);
+        jButton30.setEnabled(true);
+        jButton31.setEnabled(true);
+        jButton32.setEnabled(true);
+        jButton51.setEnabled(true);
+    }//GEN-LAST:event_jButton50ActionPerformed
+
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        cambiaColore6(jButton29);
+    }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        cambiaColore6(jButton30);
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        cambiaColore6(jButton31);
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        cambiaColore6(jButton32);
+    }//GEN-LAST:event_jButton32ActionPerformed
+
+    private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
+        blocco6=true;
+        jButton33.setEnabled(true);
+        jButton34.setEnabled(true);
+        jButton35.setEnabled(true);
+        jButton36.setEnabled(true);
+        jButton52.setEnabled(true);
+    }//GEN-LAST:event_jButton51ActionPerformed
+
+    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+        cambiaColore7(jButton33);
+    }//GEN-LAST:event_jButton33ActionPerformed
+
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        cambiaColore7(jButton34);
+    }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        cambiaColore7(jButton35);
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        cambiaColore7(jButton36);
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
+        blocco7=true;
+        jButton37.setEnabled(true);
+        jButton38.setEnabled(true);
+        jButton39.setEnabled(true);
+        jButton40.setEnabled(true);
+        jButton53.setEnabled(true);
+    }//GEN-LAST:event_jButton52ActionPerformed
+
+    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        cambiaColore8(jButton37);
+    }//GEN-LAST:event_jButton37ActionPerformed
+
+    private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
+        cambiaColore8(jButton38);
+    }//GEN-LAST:event_jButton38ActionPerformed
+
+    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+        cambiaColore8(jButton39);
+    }//GEN-LAST:event_jButton39ActionPerformed
+
+    private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
+        cambiaColore8(jButton40);
+    }//GEN-LAST:event_jButton40ActionPerformed
+
+    private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
+        blocco8=true;
+        jButton41.setEnabled(true);
+        jButton42.setEnabled(true);
+        jButton43.setEnabled(true);
+        jButton44.setEnabled(true);
+        jButton54.setEnabled(true);
+    }//GEN-LAST:event_jButton53ActionPerformed
+
+    private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
+        cambiaColore9(jButton41);
+    }//GEN-LAST:event_jButton41ActionPerformed
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        cambiaColore9(jButton42);
+    }//GEN-LAST:event_jButton42ActionPerformed
+
+    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+        cambiaColore9(jButton43);
+    }//GEN-LAST:event_jButton43ActionPerformed
+
+    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+        cambiaColore9(jButton44);
+    }//GEN-LAST:event_jButton44ActionPerformed
+
+    private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
+        blocco9=true;
+    }//GEN-LAST:event_jButton54ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -595,6 +1269,375 @@ public class MastermindGUI extends javax.swing.JFrame {
             }
         });
     }
+    
+    int colore=0;
+    
+    
+    public void cambiaColore(JButton j){
+        if(blocco==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+ 
+    public void cambiaColore1(JButton j){
+        
+        if(blocco1==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+     public void cambiaColore2(JButton j){
+        
+        if(blocco2==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+     public void cambiaColore3(JButton j){
+        
+        if(blocco3==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+    public void cambiaColore4(JButton j){
+        
+        if(blocco4==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+    public void cambiaColore5(JButton j){
+        
+        if(blocco5==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+     public void cambiaColore6(JButton j){
+        
+        if(blocco6==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+       
+    
+     public void cambiaColore7(JButton j){
+        
+        if(blocco7==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+     
+     
+     public void cambiaColore8(JButton j){
+         
+        
+        if(blocco8==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+      public void cambiaColore9(JButton j){
+        
+        if(blocco9==false){
+       colore++;
+       
+       if(colore>=8){
+           colore=0;
+       }
+       if(colore==0){
+           j.setBackground(Color.BLUE);
+       }
+       if(colore==1){
+           j.setBackground(Color.RED);
+       }
+       if(colore==2){
+           j.setBackground(Color.GREEN);
+       }
+       if(colore==3){
+           j.setBackground(Color.YELLOW);
+       }
+       if(colore==4){
+           j.setBackground(Color.MAGENTA);
+       }
+       if(colore==5){
+           j.setBackground(Color.ORANGE);
+       }
+       if(colore==6){
+           j.setBackground(Color.GRAY);
+       }
+       if(colore==7){
+           j.setBackground(Color.WHITE);
+       }
+        }
+    }
+    
+    
+
+      
+      
+      
+      
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
@@ -647,10 +1690,12 @@ public class MastermindGUI extends javax.swing.JFrame {
     private javax.swing.JButton jButton52;
     private javax.swing.JButton jButton53;
     private javax.swing.JButton jButton54;
+    private javax.swing.JButton jButton55;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
