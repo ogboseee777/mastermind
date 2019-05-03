@@ -18,6 +18,28 @@ public class MastermindGUI extends javax.swing.JFrame {
      */
     public MastermindGUI() {
         initComponents();
+        
+        jLabel1.setBackground(Color.WHITE);
+        jLabel2.setBackground(Color.WHITE);
+        jLabel3.setBackground(Color.WHITE);
+        jLabel4.setBackground(Color.WHITE);
+        jLabel5.setBackground(Color.WHITE);
+        jLabel6.setBackground(Color.WHITE);
+        jLabel7.setBackground(Color.WHITE);
+        jLabel8.setBackground(Color.WHITE);
+        jLabel9.setBackground(Color.WHITE);
+        jLabel10.setBackground(Color.WHITE);
+        jLabel11.setBackground(Color.RED);
+        jLabel12.setBackground(Color.RED);
+        jLabel13.setBackground(Color.RED);
+        jLabel14.setBackground(Color.RED);
+        jLabel15.setBackground(Color.RED);
+        jLabel16.setBackground(Color.RED);
+        jLabel17.setBackground(Color.RED);
+        jLabel18.setBackground(Color.RED);
+        jLabel19.setBackground(Color.RED);
+        jLabel20.setBackground(Color.RED);
+        
         jButton1.setBackground(Color.BLUE);
         jButton2.setBackground(Color.BLUE);
         jButton3.setBackground(Color.BLUE);
@@ -215,6 +237,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setLocation(new java.awt.Point(600, 100));
 
         jButton1.setText(" ");
         jButton1.setPreferredSize(new java.awt.Dimension(50, 50));
@@ -569,44 +592,64 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jLabel1.setText("-");
+        jLabel1.setOpaque(true);
 
         jLabel2.setText("-");
+        jLabel2.setOpaque(true);
 
         jLabel3.setText("-");
+        jLabel3.setOpaque(true);
 
         jLabel4.setText("-");
+        jLabel4.setOpaque(true);
 
         jLabel5.setText("-");
+        jLabel5.setOpaque(true);
 
         jLabel6.setText("-");
+        jLabel6.setOpaque(true);
 
         jLabel7.setText("-");
+        jLabel7.setOpaque(true);
 
         jLabel8.setText("-");
+        jLabel8.setOpaque(true);
 
         jLabel9.setText("-");
+        jLabel9.setOpaque(true);
 
         jLabel10.setText("-");
+        jLabel10.setOpaque(true);
 
         jLabel11.setText("-");
+        jLabel11.setOpaque(true);
 
         jLabel12.setText("-");
+        jLabel12.setOpaque(true);
 
         jLabel13.setText("-");
+        jLabel13.setOpaque(true);
 
         jLabel14.setText("-");
+        jLabel14.setOpaque(true);
 
         jLabel15.setText("-");
+        jLabel15.setOpaque(true);
 
         jLabel16.setText("-");
+        jLabel16.setOpaque(true);
 
         jLabel17.setText("-");
+        jLabel17.setOpaque(true);
 
         jLabel18.setText("-");
+        jLabel18.setOpaque(true);
 
         jLabel19.setText("-");
+        jLabel19.setOpaque(true);
 
         jLabel20.setText("-");
+        jLabel20.setOpaque(true);
 
         jButton45.setText("OK");
         jButton45.setPreferredSize(new java.awt.Dimension(50, 50));
