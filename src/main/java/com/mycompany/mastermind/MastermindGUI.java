@@ -115,7 +115,6 @@ public class MastermindGUI extends javax.swing.JFrame {
         jButton54.setEnabled(false);        
     }
     
-    boolean blocco=false;
     boolean blocco1=false;
     boolean blocco2=false;
     boolean blocco3=false;
@@ -125,6 +124,7 @@ public class MastermindGUI extends javax.swing.JFrame {
     boolean blocco7=false;
     boolean blocco8=false;
     boolean blocco9=false;
+    boolean blocco10=false;
     
     /**
      * This method is called from within the constructor to initialize the form.
@@ -970,7 +970,6 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
-
         jButton1.setVisible(false);
         jButton2.setVisible(false);
         jButton3.setVisible(false);
@@ -981,108 +980,106 @@ public class MastermindGUI extends javax.swing.JFrame {
         jButton6.setEnabled(true);
         jButton7.setEnabled(true);
         jButton8.setEnabled(true);
-        jButton45.setEnabled(true);
-        
+        jButton45.setEnabled(true);  
     }//GEN-LAST:event_jButton55ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        cambiaColore(jButton5);
+        if (blocco1==false)cambiaColore(jButton5);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        cambiaColore(jButton6);
+        if (blocco1==false) cambiaColore(jButton6);
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        cambiaColore(jButton7);
+        if (blocco1==false) cambiaColore(jButton7);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        cambiaColore(jButton8);
+        if (blocco1==false) cambiaColore(jButton8);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
-        blocco=true;
+        blocco1=true;
+        paragona(jButton5, jButton6, jButton7, jButton8, jLabel1);
         jButton9.setEnabled(true);
         jButton10.setEnabled(true);
         jButton11.setEnabled(true);
         jButton12.setEnabled(true);
         jButton46.setEnabled(true);
-        
-        
     }//GEN-LAST:event_jButton45ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        cambiaColore1(jButton9);
+        if (blocco2==false) cambiaColore(jButton9);
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        cambiaColore1(jButton10);
+        if (blocco2==false) cambiaColore(jButton10);
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        cambiaColore1(jButton11);
+        if (blocco2==false)  cambiaColore(jButton11);
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        cambiaColore1(jButton12);
+        if (blocco2==false) cambiaColore(jButton12);
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
-        blocco1=true;
+        blocco2=true;
+        paragona(jButton9, jButton10, jButton11, jButton12, jLabel2);
         jButton13.setEnabled(true);
         jButton14.setEnabled(true);
         jButton15.setEnabled(true);
         jButton16.setEnabled(true);
-        jButton47.setEnabled(true);
-        
-        
+        jButton47.setEnabled(true); 
     }//GEN-LAST:event_jButton46ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
-        cambiaColore2(jButton13);
+        if (blocco3==false) cambiaColore(jButton13);
     }//GEN-LAST:event_jButton13ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
-        cambiaColore2(jButton14);
+        if (blocco3==false) cambiaColore(jButton14);
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
-        cambiaColore2(jButton15);
+        if (blocco3==false) cambiaColore(jButton15);
     }//GEN-LAST:event_jButton15ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        cambiaColore2(jButton16);
+        if (blocco3==false) cambiaColore(jButton16);
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
-        blocco2=true;
+        blocco3=true;
+        paragona(jButton13, jButton14, jButton15, jButton16, jLabel3);
         jButton17.setEnabled(true);
         jButton18.setEnabled(true);
         jButton19.setEnabled(true);
         jButton20.setEnabled(true);
         jButton48.setEnabled(true);
-        
     }//GEN-LAST:event_jButton47ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        cambiaColore3(jButton17);
+        if (blocco4==false) cambiaColore(jButton17);
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        cambiaColore3(jButton18);
+        if (blocco4==false) cambiaColore(jButton18);
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
-        cambiaColore3(jButton19);
+        if (blocco4==false) cambiaColore(jButton19);
     }//GEN-LAST:event_jButton19ActionPerformed
 
     private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        cambiaColore3(jButton20);
+        if (blocco4==false) cambiaColore(jButton20);
     }//GEN-LAST:event_jButton20ActionPerformed
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
-        blocco3=true;
+        blocco4=true;
+        paragona(jButton17, jButton18, jButton19, jButton20, jLabel4);
         jButton21.setEnabled(true);
         jButton22.setEnabled(true);
         jButton23.setEnabled(true);
@@ -1091,23 +1088,24 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton48ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-        cambiaColore4(jButton21);
+        if (blocco5==false) cambiaColore(jButton21);
     }//GEN-LAST:event_jButton21ActionPerformed
 
     private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
-        cambiaColore4(jButton22);
+        if (blocco5==false) cambiaColore(jButton22);
     }//GEN-LAST:event_jButton22ActionPerformed
 
     private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
-        cambiaColore4(jButton23);
+        if (blocco5==false) cambiaColore(jButton23);
     }//GEN-LAST:event_jButton23ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-        cambiaColore4(jButton24);
+        if (blocco5==false) cambiaColore(jButton24);
     }//GEN-LAST:event_jButton24ActionPerformed
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
-        blocco4=true;
+        blocco5=true;
+        paragona(jButton21, jButton22, jButton23, jButton24, jLabel5);
         jButton25.setEnabled(true);
         jButton26.setEnabled(true);
         jButton27.setEnabled(true);
@@ -1116,23 +1114,24 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-        cambiaColore5(jButton25);
+        if (blocco6==false) cambiaColore(jButton25);
     }//GEN-LAST:event_jButton25ActionPerformed
 
     private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
-        cambiaColore5(jButton26);
+        if (blocco6==false) cambiaColore(jButton26);
     }//GEN-LAST:event_jButton26ActionPerformed
 
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
-        cambiaColore5(jButton27);
+        if (blocco6==false) cambiaColore(jButton27);
     }//GEN-LAST:event_jButton27ActionPerformed
 
     private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
-        cambiaColore5(jButton28);
+        if (blocco6==false) cambiaColore(jButton28);
     }//GEN-LAST:event_jButton28ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
-        blocco5=true;
+        blocco6=true;
+        paragona(jButton25, jButton26, jButton27, jButton28, jLabel6);
         jButton29.setEnabled(true);
         jButton30.setEnabled(true);
         jButton31.setEnabled(true);
@@ -1141,23 +1140,24 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton50ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        cambiaColore6(jButton29);
+        if (blocco7==false) cambiaColore(jButton29);
     }//GEN-LAST:event_jButton29ActionPerformed
 
     private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-        cambiaColore6(jButton30);
+        if (blocco7==false) cambiaColore(jButton30);
     }//GEN-LAST:event_jButton30ActionPerformed
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
-        cambiaColore6(jButton31);
+        if (blocco7==false) cambiaColore(jButton31);
     }//GEN-LAST:event_jButton31ActionPerformed
 
     private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
-        cambiaColore6(jButton32);
+        if (blocco7==false) cambiaColore(jButton32);
     }//GEN-LAST:event_jButton32ActionPerformed
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
-        blocco6=true;
+        blocco7=true;
+        paragona(jButton29, jButton30, jButton31, jButton32, jLabel7);
         jButton33.setEnabled(true);
         jButton34.setEnabled(true);
         jButton35.setEnabled(true);
@@ -1166,23 +1166,24 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton51ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
-        cambiaColore7(jButton33);
+        if (blocco8==false) cambiaColore(jButton33);
     }//GEN-LAST:event_jButton33ActionPerformed
 
     private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
-        cambiaColore7(jButton34);
+        if (blocco8==false) cambiaColore(jButton34);
     }//GEN-LAST:event_jButton34ActionPerformed
 
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
-        cambiaColore7(jButton35);
+        if (blocco8==false) cambiaColore(jButton35);
     }//GEN-LAST:event_jButton35ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
-        cambiaColore7(jButton36);
+        if (blocco8==false) cambiaColore(jButton36);
     }//GEN-LAST:event_jButton36ActionPerformed
 
     private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
-        blocco7=true;
+        blocco8=true;
+        paragona(jButton33, jButton34, jButton35, jButton36, jLabel8);
         jButton37.setEnabled(true);
         jButton38.setEnabled(true);
         jButton39.setEnabled(true);
@@ -1191,23 +1192,24 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton52ActionPerformed
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
-        cambiaColore8(jButton37);
+        if (blocco9==false) cambiaColore(jButton37);
     }//GEN-LAST:event_jButton37ActionPerformed
 
     private void jButton38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton38ActionPerformed
-        cambiaColore8(jButton38);
+        if (blocco9==false) cambiaColore(jButton38);
     }//GEN-LAST:event_jButton38ActionPerformed
 
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
-        cambiaColore8(jButton39);
+        if (blocco9==false) cambiaColore(jButton39);
     }//GEN-LAST:event_jButton39ActionPerformed
 
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
-        cambiaColore8(jButton40);
+        if (blocco9==false) cambiaColore(jButton40);
     }//GEN-LAST:event_jButton40ActionPerformed
 
     private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
-        blocco8=true;
+        blocco9=true;
+        paragona(jButton37, jButton38, jButton39, jButton40, jLabel9);
         jButton41.setEnabled(true);
         jButton42.setEnabled(true);
         jButton43.setEnabled(true);
@@ -1216,23 +1218,24 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton53ActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
-        cambiaColore9(jButton41);
+        if (blocco10==false) cambiaColore(jButton41);
     }//GEN-LAST:event_jButton41ActionPerformed
 
     private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
-        cambiaColore9(jButton42);
+        if (blocco10==false) cambiaColore(jButton42);
     }//GEN-LAST:event_jButton42ActionPerformed
 
     private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
-        cambiaColore9(jButton43);
+        if (blocco10==false) cambiaColore(jButton43);
     }//GEN-LAST:event_jButton43ActionPerformed
 
     private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
-        cambiaColore9(jButton44);
+        if (blocco10==false) cambiaColore(jButton44);
     }//GEN-LAST:event_jButton44ActionPerformed
 
     private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
-        blocco9=true;
+        paragona(jButton41, jButton42, jButton43, jButton44, jLabel10);
+        blocco10=true;
     }//GEN-LAST:event_jButton54ActionPerformed
 
     /**
@@ -1274,44 +1277,7 @@ public class MastermindGUI extends javax.swing.JFrame {
     
     
     public void cambiaColore(JButton j){
-        if(blocco==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-    
-    
- 
-    public void cambiaColore1(JButton j){
         
-        if(blocco1==false){
        colore++;
        
        if(colore>=8){
@@ -1341,303 +1307,27 @@ public class MastermindGUI extends javax.swing.JFrame {
        if(colore==7){
            j.setBackground(Color.WHITE);
        }
-        }
+       
     }
     
-    
-     public void cambiaColore2(JButton j){
+    public void paragona(JButton a, JButton b, JButton c, JButton d, JLabel j){
+        int g=0;
+        if(a.getBackground().equals(jButton1.getBackground())){
+        g++;
+        }
+        if(b.getBackground().equals(jButton2.getBackground())){
+        g++;
+        }
+        if(c.getBackground().equals(jButton3.getBackground())){
+        g++;
+        }
+        if(d.getBackground().equals(jButton4.getBackground())){
+        g++;
+        }
         
-        if(blocco2==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
+        String testo=String.valueOf(g);
+        j.setText(testo);
     }
-    
-    
-     public void cambiaColore3(JButton j){
-        
-        if(blocco3==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-    
-    
-    public void cambiaColore4(JButton j){
-        
-        if(blocco4==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-    
-    
-    public void cambiaColore5(JButton j){
-        
-        if(blocco5==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-    
-     public void cambiaColore6(JButton j){
-        
-        if(blocco6==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-       
-    
-     public void cambiaColore7(JButton j){
-        
-        if(blocco7==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-     
-     
-     public void cambiaColore8(JButton j){
-         
-        
-        if(blocco8==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-    
-    
-      public void cambiaColore9(JButton j){
-        
-        if(blocco9==false){
-       colore++;
-       
-       if(colore>=8){
-           colore=0;
-       }
-       if(colore==0){
-           j.setBackground(Color.BLUE);
-       }
-       if(colore==1){
-           j.setBackground(Color.RED);
-       }
-       if(colore==2){
-           j.setBackground(Color.GREEN);
-       }
-       if(colore==3){
-           j.setBackground(Color.YELLOW);
-       }
-       if(colore==4){
-           j.setBackground(Color.MAGENTA);
-       }
-       if(colore==5){
-           j.setBackground(Color.ORANGE);
-       }
-       if(colore==6){
-           j.setBackground(Color.GRAY);
-       }
-       if(colore==7){
-           j.setBackground(Color.WHITE);
-       }
-        }
-    }
-    
-    
-
-      
-      
-      
-      
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
