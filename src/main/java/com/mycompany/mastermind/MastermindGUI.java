@@ -511,49 +511,49 @@ public class MastermindGUI extends javax.swing.JFrame {
         jLabel10.setOpaque(true);
         jLabel10.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel11.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel11.setBackground(new java.awt.Color(255, 30, 30));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("-");
         jLabel11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
         jLabel11.setOpaque(true);
         jLabel11.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel12.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel12.setBackground(new java.awt.Color(255, 30, 30));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("-");
         jLabel12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
         jLabel12.setOpaque(true);
         jLabel12.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel13.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel13.setBackground(new java.awt.Color(255, 30, 30));
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel13.setText("-");
         jLabel13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
         jLabel13.setOpaque(true);
         jLabel13.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel14.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel14.setBackground(new java.awt.Color(255, 30, 30));
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setText("-");
         jLabel14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
         jLabel14.setOpaque(true);
         jLabel14.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel15.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel15.setBackground(new java.awt.Color(255, 30, 30));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("-");
         jLabel15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
         jLabel15.setOpaque(true);
         jLabel15.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel16.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel16.setBackground(new java.awt.Color(255, 30, 30));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("-");
         jLabel16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
         jLabel16.setOpaque(true);
         jLabel16.setPreferredSize(new java.awt.Dimension(20, 20));
 
-        jLabel17.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel17.setBackground(new java.awt.Color(255, 30, 30));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setText("-");
         jLabel17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
@@ -632,7 +632,7 @@ public class MastermindGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel18.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel18.setBackground(new java.awt.Color(255, 30, 30));
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setText("-");
         jLabel18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
@@ -648,7 +648,7 @@ public class MastermindGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel19.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel19.setBackground(new java.awt.Color(255, 30, 30));
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("-");
         jLabel19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
@@ -664,7 +664,7 @@ public class MastermindGUI extends javax.swing.JFrame {
             }
         });
 
-        jLabel20.setBackground(new java.awt.Color(255, 0, 0));
+        jLabel20.setBackground(new java.awt.Color(255, 30, 30));
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setText("-");
         jLabel20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
@@ -1185,12 +1185,14 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
         blocco1=true;
-        paragona(jButton5, jButton6, jButton7, jButton8, jLabel1);
+        if(paragona(jButton5, jButton6, jButton7, jButton8, jLabel1)!=4) {
         jButton9.setEnabled(true);
         jButton10.setEnabled(true);
         jButton11.setEnabled(true);
         jButton12.setEnabled(true);
         jButton46.setEnabled(true);
+        }
+        posizione(jButton5, jButton6, jButton7, jButton8, jLabel11);
     }//GEN-LAST:event_jButton45ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -1211,12 +1213,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
         blocco2=true;
-        paragona(jButton9, jButton10, jButton11, jButton12, jLabel2);
+        if(paragona(jButton9, jButton10, jButton11, jButton12, jLabel2)!=4){
         jButton13.setEnabled(true);
         jButton14.setEnabled(true);
         jButton15.setEnabled(true);
         jButton16.setEnabled(true);
-        jButton47.setEnabled(true); 
+        jButton47.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton46ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
@@ -1237,12 +1240,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
         blocco3=true;
-        paragona(jButton13, jButton14, jButton15, jButton16, jLabel3);
+        if(paragona(jButton13, jButton14, jButton15, jButton16, jLabel3)!=4){
         jButton17.setEnabled(true);
         jButton18.setEnabled(true);
         jButton19.setEnabled(true);
         jButton20.setEnabled(true);
         jButton48.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton47ActionPerformed
 
     private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
@@ -1263,12 +1267,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
         blocco4=true;
-        paragona(jButton17, jButton18, jButton19, jButton20, jLabel4);
+        if(paragona(jButton17, jButton18, jButton19, jButton20, jLabel4)!=4){
         jButton21.setEnabled(true);
         jButton22.setEnabled(true);
         jButton23.setEnabled(true);
         jButton24.setEnabled(true);
         jButton49.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton48ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
@@ -1289,12 +1294,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
         blocco5=true;
-        paragona(jButton21, jButton22, jButton23, jButton24, jLabel5);
+        if(paragona(jButton21, jButton22, jButton23, jButton24, jLabel5)!=4){
         jButton25.setEnabled(true);
         jButton26.setEnabled(true);
         jButton27.setEnabled(true);
         jButton28.setEnabled(true);
         jButton50.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
@@ -1315,12 +1321,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
         blocco6=true;
-        paragona(jButton25, jButton26, jButton27, jButton28, jLabel6);
+        if(paragona(jButton25, jButton26, jButton27, jButton28, jLabel6)!=4){
         jButton29.setEnabled(true);
         jButton30.setEnabled(true);
         jButton31.setEnabled(true);
         jButton32.setEnabled(true);
         jButton51.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton50ActionPerformed
 
     private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
@@ -1341,12 +1348,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
         blocco7=true;
-        paragona(jButton29, jButton30, jButton31, jButton32, jLabel7);
+        if(paragona(jButton29, jButton30, jButton31, jButton32, jLabel7)!=4){
         jButton33.setEnabled(true);
         jButton34.setEnabled(true);
         jButton35.setEnabled(true);
         jButton36.setEnabled(true);
         jButton52.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton51ActionPerformed
 
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
@@ -1367,12 +1375,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
         blocco8=true;
-        paragona(jButton33, jButton34, jButton35, jButton36, jLabel8);
+        if(paragona(jButton33, jButton34, jButton35, jButton36, jLabel8)!=4){
         jButton37.setEnabled(true);
         jButton38.setEnabled(true);
         jButton39.setEnabled(true);
         jButton40.setEnabled(true);
         jButton53.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton52ActionPerformed
 
     private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
@@ -1393,12 +1402,13 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
         blocco9=true;
-        paragona(jButton37, jButton38, jButton39, jButton40, jLabel9);
+        if(paragona(jButton37, jButton38, jButton39, jButton40, jLabel9)!=4){
         jButton41.setEnabled(true);
         jButton42.setEnabled(true);
         jButton43.setEnabled(true);
         jButton44.setEnabled(true);
         jButton54.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton53ActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
@@ -1494,7 +1504,7 @@ public class MastermindGUI extends javax.swing.JFrame {
        
     }
     
-    public void paragona(JButton a, JButton b, JButton c, JButton d, JLabel j){
+    public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j){
         int g=0;
         if(a.getBackground().equals(jButton1.getBackground())){
         g++;
@@ -1510,6 +1520,27 @@ public class MastermindGUI extends javax.swing.JFrame {
         }
         
         String testo=String.valueOf(g);
+        j.setText(testo);
+        
+        if(g==4){
+            jButton1.setVisible(true);
+            jButton2.setVisible(true);
+            jButton3.setVisible(true);
+            jButton4.setVisible(true);
+            jButton55.setVisible(true);
+            JOptionPane.showMessageDialog(this, "VITTORIA", "Fine del gioco", JOptionPane.INFORMATION_MESSAGE);
+        }
+        
+        return g;
+    }
+    
+    public void posizione(JButton a, JButton b, JButton c, JButton d, JLabel j){
+        int p=0;
+        if(jButton1.getBackground().equals(b.getBackground()) || jButton1.getBackground().equals(c.getBackground()) || jButton1.getBackground().equals(d.getBackground())) p++;
+        if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground())) p++;
+        if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground())) p++;
+        if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground())) p++;
+        String testo=String.valueOf(p);
         j.setText(testo);
     }
 
