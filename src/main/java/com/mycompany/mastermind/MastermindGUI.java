@@ -1154,11 +1154,11 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
-        jButton1.setVisible(false);
+       /* jButton1.setVisible(false);
         jButton2.setVisible(false);
         jButton3.setVisible(false);
         jButton4.setVisible(false);
-        jButton55.setVisible(false);
+        jButton55.setVisible(false);*/
         
         jButton5.setEnabled(true);
         jButton6.setEnabled(true);
@@ -1185,14 +1185,14 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
         blocco1=true;
-        if(paragona(jButton5, jButton6, jButton7, jButton8, jLabel1)!=4) {
+        if(paragona(jButton5, jButton6, jButton7, jButton8, jLabel1, jLabel11)!=4) {
         jButton9.setEnabled(true);
         jButton10.setEnabled(true);
         jButton11.setEnabled(true);
         jButton12.setEnabled(true);
         jButton46.setEnabled(true);
         }
-        posizione(jButton5, jButton6, jButton7, jButton8, jLabel11);
+       
     }//GEN-LAST:event_jButton45ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -1213,7 +1213,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
         blocco2=true;
-        if(paragona(jButton9, jButton10, jButton11, jButton12, jLabel2)!=4){
+        if(paragona(jButton9, jButton10, jButton11, jButton12, jLabel2, jLabel12)!=4){
         jButton13.setEnabled(true);
         jButton14.setEnabled(true);
         jButton15.setEnabled(true);
@@ -1240,7 +1240,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
         blocco3=true;
-        if(paragona(jButton13, jButton14, jButton15, jButton16, jLabel3)!=4){
+        if(paragona(jButton13, jButton14, jButton15, jButton16, jLabel3, jLabel13)!=4){
         jButton17.setEnabled(true);
         jButton18.setEnabled(true);
         jButton19.setEnabled(true);
@@ -1267,7 +1267,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
         blocco4=true;
-        if(paragona(jButton17, jButton18, jButton19, jButton20, jLabel4)!=4){
+        if(paragona(jButton17, jButton18, jButton19, jButton20, jLabel4,jLabel14)!=4){
         jButton21.setEnabled(true);
         jButton22.setEnabled(true);
         jButton23.setEnabled(true);
@@ -1294,7 +1294,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
         blocco5=true;
-        if(paragona(jButton21, jButton22, jButton23, jButton24, jLabel5)!=4){
+        if(paragona(jButton21, jButton22, jButton23, jButton24, jLabel5, jLabel15)!=4){
         jButton25.setEnabled(true);
         jButton26.setEnabled(true);
         jButton27.setEnabled(true);
@@ -1321,7 +1321,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
         blocco6=true;
-        if(paragona(jButton25, jButton26, jButton27, jButton28, jLabel6)!=4){
+        if(paragona(jButton25, jButton26, jButton27, jButton28, jLabel6, jLabel16)!=4){
         jButton29.setEnabled(true);
         jButton30.setEnabled(true);
         jButton31.setEnabled(true);
@@ -1348,7 +1348,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
         blocco7=true;
-        if(paragona(jButton29, jButton30, jButton31, jButton32, jLabel7)!=4){
+        if(paragona(jButton29, jButton30, jButton31, jButton32, jLabel7, jLabel17)!=4){
         jButton33.setEnabled(true);
         jButton34.setEnabled(true);
         jButton35.setEnabled(true);
@@ -1375,7 +1375,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
         blocco8=true;
-        if(paragona(jButton33, jButton34, jButton35, jButton36, jLabel8)!=4){
+        if(paragona(jButton33, jButton34, jButton35, jButton36, jLabel8, jLabel18)!=4){
         jButton37.setEnabled(true);
         jButton38.setEnabled(true);
         jButton39.setEnabled(true);
@@ -1402,7 +1402,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
         blocco9=true;
-        if(paragona(jButton37, jButton38, jButton39, jButton40, jLabel9)!=4){
+        if(paragona(jButton37, jButton38, jButton39, jButton40, jLabel9, jLabel19)!=4){
         jButton41.setEnabled(true);
         jButton42.setEnabled(true);
         jButton43.setEnabled(true);
@@ -1428,7 +1428,7 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton44ActionPerformed
 
     private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
-        paragona(jButton41, jButton42, jButton43, jButton44, jLabel10);
+        paragona(jButton41, jButton42, jButton43, jButton44, jLabel10, jLabel20);
         blocco10=true;
     }//GEN-LAST:event_jButton54ActionPerformed
 
@@ -1504,23 +1504,33 @@ public class MastermindGUI extends javax.swing.JFrame {
        
     }
     
-    public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j){
-        int g=0;
-        if(a.getBackground().equals(jButton1.getBackground())){
-        g++;
+    public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j, JLabel k){
+        int g=0, s=0;
+        if(!a.getBackground().equals(jButton1.getBackground())){
+            if(jButton1.getBackground().equals(b.getBackground()) || jButton1.getBackground().equals(c.getBackground()) || jButton1.getBackground().equals(d.getBackground())) s++;
         }
-        if(b.getBackground().equals(jButton2.getBackground())){
-        g++;
+        else g++;
+        
+        if(!b.getBackground().equals(jButton2.getBackground())){
+            if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground())) s++;
+        
         }
-        if(c.getBackground().equals(jButton3.getBackground())){
-        g++;
+        else g++;
+        
+        if(!c.getBackground().equals(jButton3.getBackground())){
+            if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground())) s++;
         }
-        if(d.getBackground().equals(jButton4.getBackground())){
-        g++;
+        else g++;
+        
+        if(!d.getBackground().equals(jButton4.getBackground())){
+            if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground())) s++;
         }
+        else g++;
         
         String testo=String.valueOf(g);
         j.setText(testo);
+        String numero=String.valueOf(s);
+        k.setText(numero);
         
         if(g==4){
             jButton1.setVisible(true);
@@ -1533,7 +1543,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         
         return g;
     }
-    
+    /*
     public void posizione(JButton a, JButton b, JButton c, JButton d, JLabel j){
         int p=0;
         if(jButton1.getBackground().equals(b.getBackground()) || jButton1.getBackground().equals(c.getBackground()) || jButton1.getBackground().equals(d.getBackground())) p++;
@@ -1542,7 +1552,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground())) p++;
         String testo=String.valueOf(p);
         j.setText(testo);
-    }
+    }*/
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
