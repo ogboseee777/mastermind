@@ -9,7 +9,7 @@ import javax.swing.*;
 
 /**
  *
- * @author Giulio
+ * @author Giulio, Andrea
  */
 public class MastermindGUI extends javax.swing.JFrame {
 
@@ -18,28 +18,7 @@ public class MastermindGUI extends javax.swing.JFrame {
      */
     public MastermindGUI() {
         initComponents();
-        
-        jLabel1.setBackground(Color.WHITE);
-        jLabel2.setBackground(Color.WHITE);
-        jLabel3.setBackground(Color.WHITE);
-        jLabel4.setBackground(Color.WHITE);
-        jLabel5.setBackground(Color.WHITE);
-        jLabel6.setBackground(Color.WHITE);
-        jLabel7.setBackground(Color.WHITE);
-        jLabel8.setBackground(Color.WHITE);
-        jLabel9.setBackground(Color.WHITE);
-        jLabel10.setBackground(Color.WHITE);
-        jLabel11.setBackground(Color.RED);
-        jLabel12.setBackground(Color.RED);
-        jLabel13.setBackground(Color.RED);
-        jLabel14.setBackground(Color.RED);
-        jLabel15.setBackground(Color.RED);
-        jLabel16.setBackground(Color.RED);
-        jLabel17.setBackground(Color.RED);
-        jLabel18.setBackground(Color.RED);
-        jLabel19.setBackground(Color.RED);
-        jLabel20.setBackground(Color.RED);
-        
+          
         jButton1.setBackground(Color.BLUE);
         jButton2.setBackground(Color.BLUE);
         jButton3.setBackground(Color.BLUE);
@@ -1512,18 +1491,34 @@ public class MastermindGUI extends javax.swing.JFrame {
         else g++;
         
         if(!b.getBackground().equals(jButton2.getBackground())){
-            if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground())) s++;
+            if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground())){
+                if(jButton2.getBackground().equals(jButton1.getBackground())) {
+                    s--;
+                }
+                s++;
+            }
+            
         
         }
         else g++;
         
         if(!c.getBackground().equals(jButton3.getBackground())){
-            if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground())) s++;
+            if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground())){
+                if(jButton3.getBackground().equals(jButton2.getBackground())){
+                    s--;
+                }
+                s++;
+            }
         }
         else g++;
         
         if(!d.getBackground().equals(jButton4.getBackground())){
-            if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground())) s++;
+            if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground())){
+                if(jButton4.getBackground().equals(jButton3.getBackground())){
+                    s--;
+                }
+                s++;
+            }
         }
         else g++;
         
