@@ -1485,10 +1485,84 @@ public class MastermindGUI extends javax.swing.JFrame {
     
     public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j, JLabel k){
         int g=0, s=0;
-        if(!a.getBackground().equals(jButton1.getBackground())){
+        
+        if(a.getBackground().equals(jButton1.getBackground())){
+        g++;
+        }
+        
+        if(b.getBackground().equals(jButton2.getBackground())){
+        g++;
+        }
+        
+        if(c.getBackground().equals(jButton3.getBackground())){
+        g++;
+        }
+        
+        if(d.getBackground().equals(jButton4.getBackground())){
+        g++;
+        }
+        
+        //1
+        if(jButton1.getBackground().equals(b.getBackground())){
+            if(b.getBackground().equals(jButton2.getBackground())) {}
+            else s++;
+        }
+        if(jButton1.getBackground().equals(c.getBackground())){
+            if(c.getBackground().equals(jButton3.getBackground())) {}
+            else s++;
+        }
+        if(jButton1.getBackground().equals(d.getBackground())){
+            if(d.getBackground().equals(jButton4.getBackground())) {}
+            else s++;
+        }
+        
+        //2
+        if(jButton2.getBackground().equals(a.getBackground())){
+            if(a.getBackground().equals(jButton1.getBackground())) {}
+            else s++;
+        }
+        if(jButton2.getBackground().equals(c.getBackground())){
+            if(c.getBackground().equals(jButton3.getBackground())) {}
+            else s++;
+        }
+        if(jButton2.getBackground().equals(d.getBackground())){
+            if(d.getBackground().equals(jButton4.getBackground())) {}
+            else s++;
+        }
+        
+        //3
+        if(jButton3.getBackground().equals(a.getBackground())){
+            if(a.getBackground().equals(jButton1.getBackground())) {}
+            else s++;
+        }
+        if(jButton3.getBackground().equals(b.getBackground())){
+            if(b.getBackground().equals(jButton2.getBackground())) {}
+            else s++;
+        }
+        if(jButton3.getBackground().equals(d.getBackground())){
+            if(d.getBackground().equals(jButton4.getBackground())) {}
+            else s++;
+        }
+        
+        //4
+        if(jButton4.getBackground().equals(a.getBackground())){
+            if(a.getBackground().equals(jButton1.getBackground())) {}
+            else s++;
+        }
+        if(jButton4.getBackground().equals(b.getBackground())){
+            if(b.getBackground().equals(jButton2.getBackground())) {}
+            else s++;
+        }
+        if(jButton4.getBackground().equals(c.getBackground())){
+            if(c.getBackground().equals(jButton3.getBackground())) {}
+            else s++;
+        }
+        
+        
+        /*if(!a.getBackground().equals(jButton1.getBackground())){
             if(jButton1.getBackground().equals(b.getBackground()) || jButton1.getBackground().equals(c.getBackground()) || jButton1.getBackground().equals(d.getBackground())) s++;
         }
-        else g++;
+        else g++; v=true;
         
         if(!b.getBackground().equals(jButton2.getBackground())){
             if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground())){
@@ -1497,8 +1571,6 @@ public class MastermindGUI extends javax.swing.JFrame {
                 }
                 s++;
             }
-            
-        
         }
         else g++;
         
@@ -1520,7 +1592,7 @@ public class MastermindGUI extends javax.swing.JFrame {
                 s++;
             }
         }
-        else g++;
+        else g++;*/
         
         String testo=String.valueOf(g);
         j.setText(testo);
@@ -1538,6 +1610,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         
         return g;
     }
+    
     /*
     public void posizione(JButton a, JButton b, JButton c, JButton d, JLabel j){
         int p=0;
