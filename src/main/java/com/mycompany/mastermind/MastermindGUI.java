@@ -1485,8 +1485,25 @@ public class MastermindGUI extends javax.swing.JFrame {
     
     public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j, JLabel k){
         int g=0, s=0;
+        int numero=0;
+        boolean [] bol = new boolean[4];
+        if (jButton1.getBackground().equals(a.getBackground())) bol[0]=true; else bol[0]=false;
+        if (jButton2.getBackground().equals(b.getBackground())) bol[1]=true; else bol[1]=false;
+        if (jButton3.getBackground().equals(c.getBackground())) bol[2]=true; else bol[2]=false;
+        if (jButton4.getBackground().equals(d.getBackground())) bol[3]=true; else bol[3]=false;
         
-        if(jButton1.getBackground().equals(a.getBackground())){
+        for (int i=0; i<4; i++){
+            if (bol[i]==false) numero++;
+        }
+        
+        if (bol[0]==false){
+            for (int i=0; i<4; i++){
+                if (a.getBackground().equals(jButton1.getBackground())) s++;           
+            }   
+        }
+        
+        
+        /*if(jButton1.getBackground().equals(a.getBackground())){
         	g++;
 	if(jButton2.getBackground().equals(b.getBackground()))g++;
 	if(jButton3.getBackground().equals(c.getBackground()))g++;
@@ -1519,7 +1536,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         }
         
         return g;
-    }
+    }*/
     
     /*
     public void posizione(JButton a, JButton b, JButton c, JButton d, JLabel j){
