@@ -1485,7 +1485,7 @@ public class MastermindGUI extends javax.swing.JFrame {
     
     public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j, JLabel k){
         int g=0, s=0;
-        int numero=0;
+        /*int numero=0;
         boolean [] bol = new boolean[4];
         if (jButton1.getBackground().equals(a.getBackground())) bol[0]=true; else bol[0]=false;
         if (jButton2.getBackground().equals(b.getBackground())) bol[1]=true; else bol[1]=false;
@@ -1500,26 +1500,42 @@ public class MastermindGUI extends javax.swing.JFrame {
             for (int i=0; i<4; i++){
                 if (a.getBackground().equals(jButton1.getBackground())) s++;           
             }   
-        }
-        
-        
-        /*if(jButton1.getBackground().equals(a.getBackground())){
+        }*/
+       
+    
+        if(jButton1.getBackground().equals(a.getBackground())){
         	g++;
+                System.out.println("si");
 	if(jButton2.getBackground().equals(b.getBackground()))g++;
 	if(jButton3.getBackground().equals(c.getBackground()))g++;
 	if(jButton4.getBackground().equals(d.getBackground()))g++;
 	}
 
 	else if(jButton1.getBackground().equals(b.getBackground()) || jButton1.getBackground().equals(c.getBackground()) || jButton1.getBackground().equals(d.getBackground()))s++;
+        System.out.println(s);
         
         
         if(jButton2.getBackground().equals(b.getBackground())){
         	g++;
-	if(jButton3.getBackground().equals(c.getBackground()))g++;
-	if(jButton4.getBackground().equals(d.getBackground()))g++;
-	}
+		}
 
 	else if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground()))s++;
+        System.out.println(s);
+        
+        if(jButton3.getBackground().equals(c.getBackground())){
+        	g++;
+		}
+
+	else if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground()))s++;
+        System.out.println(s);
+        
+        if(jButton4.getBackground().equals(d.getBackground())){
+        	g++;
+	}
+
+	else if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground()))s++;
+        System.out.println(s);
+        
         
         String testo=String.valueOf(g);
         j.setText(testo);
@@ -1535,8 +1551,8 @@ public class MastermindGUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "VITTORIA", "Fine del gioco", JOptionPane.INFORMATION_MESSAGE);
         }
         
-        return g;
-    }*/
+         return g;
+    }
     
     /*
     public void posizione(JButton a, JButton b, JButton c, JButton d, JLabel j){
@@ -1546,8 +1562,9 @@ public class MastermindGUI extends javax.swing.JFrame {
         if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground())) p++;
         if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground())) p++;
         String testo=String.valueOf(p);
-        j.setText(testo);
-    }*/
+        j.setText(testo);*/
+    
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
