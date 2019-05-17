@@ -1488,25 +1488,41 @@ public class MastermindGUI extends javax.swing.JFrame {
     
     public int paragona(JButton a, JButton b, JButton c, JButton d, JLabel j, JLabel k){
         int g=0, s=0;
-        /*int numero=0;
-        boolean [] bol = new boolean[4];
-        if (jButton1.getBackground().equals(a.getBackground())) bol[0]=true; else bol[0]=false;
-        if (jButton2.getBackground().equals(b.getBackground())) bol[1]=true; else bol[1]=false;
-        if (jButton3.getBackground().equals(c.getBackground())) bol[2]=true; else bol[2]=false;
-        if (jButton4.getBackground().equals(d.getBackground())) bol[3]=true; else bol[3]=false;
         
-        for (int i=0; i<4; i++){
-            if (bol[i]==false) numero++;
-        }
+        boolean bol1=false;
+        boolean bol2=false;
+        boolean bol3=false;
+        boolean bol4=false;
+        boolean bola=false;
+        boolean bolb=false;
+        boolean bolc=false;
+        boolean bold=false;
+        if (jButton1.getBackground().equals(a.getBackground())) {bol1=true; bola=true;g++;}
+        if (jButton2.getBackground().equals(b.getBackground())) {bol2=true; bolb=true;g++;}
+        if (jButton3.getBackground().equals(c.getBackground())) {bol3=true; bolc=true;g++;}
+        if (jButton4.getBackground().equals(d.getBackground())) {bol4=true; bold=true;g++;}
         
-        if (bol[0]==false){
-            for (int i=0; i<4; i++){
-                if (a.getBackground().equals(jButton1.getBackground())) s++;           
-            }   
-        }*/
-       
-    
-        if(jButton1.getBackground().equals(a.getBackground())){g++;
+        if((jButton1.getBackground().equals(b.getBackground())) && (bol1==false) && (bol2==false) && (bolb==false)) {System.out.println("1");s++; bolb=true; }
+        else if((jButton1.getBackground().equals(c.getBackground())) && (bol1==false) && (bol3==false)&& (bolc==false)) {System.out.println("2");s++; bolc=true;}
+        else if((jButton1.getBackground().equals(d.getBackground())) && (bol1==false) && (bol4==false)&& (bold==false)) {System.out.println("3");s++; bold=true;}
+        
+        if((jButton2.getBackground().equals(a.getBackground())) && (bol2==false) && (bol1==false)&& (bola==false)) {System.out.println("4");s++; bola=true;}
+        else if((jButton2.getBackground().equals(c.getBackground())) && (bol2==false) && (bol3==false)&& (bolc==false)) {System.out.println("5");s++; bolc=true;}
+        else if((jButton2.getBackground().equals(d.getBackground())) && (bol2==false) && (bol4==false)&& (bold==false)) {System.out.println("6");s++; bold=true;}
+        
+        if((jButton3.getBackground().equals(a.getBackground())) && (bol3==false) && (bol1==false)&& (bola==false)) {System.out.println("7");s++; bola=true;}
+        else if((jButton3.getBackground().equals(b.getBackground())) && (bol3==false) && (bol2==false)&& (bolb==false)) {System.out.println("8");s++; bolb=true;}
+        else if((jButton3.getBackground().equals(d.getBackground())) && (bol3==false) && (bol4==false)&& (bold==false)) {System.out.println("9");s++; bold=true;}
+        
+        if((jButton4.getBackground().equals(a.getBackground())) && (bol4==false) && (bol1==false)&& (bola==false)) {System.out.println("10");s++; bola=true;}
+        else if((jButton4.getBackground().equals(b.getBackground())) && (bol4==false) && (bol2==false)&& (bolb==false)) {System.out.println("11");s++; bolb=true;}
+        else if((jButton4.getBackground().equals(c.getBackground())) && (bol4==false) && (bol3==false)&& (bolc==false)) {System.out.println("12");s++; bolc=true;}
+        
+        String testo=String.valueOf(g);
+        j.setText(testo);
+        String numero=String.valueOf(s);
+        k.setText(numero);
+        /*if(jButton1.getBackground().equals(a.getBackground())){g++;
 	if(jButton2.getBackground().equals(b.getBackground()))g++;
 	if(jButton3.getBackground().equals(c.getBackground()))g++;
 	if(jButton4.getBackground().equals(d.getBackground()))g++;
@@ -1545,7 +1561,7 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton4.setVisible(true);
             jButton55.setVisible(true);
             JOptionPane.showMessageDialog(this, "VITTORIA", "Fine del gioco", JOptionPane.INFORMATION_MESSAGE);
-        }
+        }*/
         
          return g;
     }
