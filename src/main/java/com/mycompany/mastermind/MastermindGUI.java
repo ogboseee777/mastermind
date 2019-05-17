@@ -1133,17 +1133,20 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
-       /* jButton1.setVisible(false);
+        if(doppio(jButton1, jButton2, jButton3, jButton4)==true) JOptionPane.showMessageDialog(this, "Non si possono inserire colori doppi.", "Errore", JOptionPane.INFORMATION_MESSAGE);
+        else{
+        jButton1.setVisible(false);
         jButton2.setVisible(false);
         jButton3.setVisible(false);
         jButton4.setVisible(false);
-        jButton55.setVisible(false);*/
+        jButton55.setVisible(false);
         
         jButton5.setEnabled(true);
         jButton6.setEnabled(true);
         jButton7.setEnabled(true);
         jButton8.setEnabled(true);
-        jButton45.setEnabled(true);  
+        jButton45.setEnabled(true);
+        }
     }//GEN-LAST:event_jButton55ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
@@ -1503,38 +1506,31 @@ public class MastermindGUI extends javax.swing.JFrame {
         }*/
        
     
-        if(jButton1.getBackground().equals(a.getBackground())){
-        	g++;
-                System.out.println("si");
+        if(jButton1.getBackground().equals(a.getBackground())){g++;
 	if(jButton2.getBackground().equals(b.getBackground()))g++;
 	if(jButton3.getBackground().equals(c.getBackground()))g++;
 	if(jButton4.getBackground().equals(d.getBackground()))g++;
 	}
 
 	else if(jButton1.getBackground().equals(b.getBackground()) || jButton1.getBackground().equals(c.getBackground()) || jButton1.getBackground().equals(d.getBackground()))s++;
-        System.out.println(s);
-        
         
         if(jButton2.getBackground().equals(b.getBackground())){
-        	g++;
-		}
+            g++;
+	}
 
 	else if(jButton2.getBackground().equals(a.getBackground()) || jButton2.getBackground().equals(c.getBackground()) || jButton2.getBackground().equals(d.getBackground()))s++;
-        System.out.println(s);
-        
+
         if(jButton3.getBackground().equals(c.getBackground())){
-        	g++;
-		}
+            g++;
+	}
 
 	else if(jButton3.getBackground().equals(a.getBackground()) || jButton3.getBackground().equals(b.getBackground()) || jButton3.getBackground().equals(d.getBackground()))s++;
-        System.out.println(s);
-        
+
         if(jButton4.getBackground().equals(d.getBackground())){
-        	g++;
+            g++;
 	}
 
 	else if(jButton4.getBackground().equals(a.getBackground()) || jButton4.getBackground().equals(b.getBackground()) || jButton4.getBackground().equals(c.getBackground()))s++;
-        System.out.println(s);
         
         
         String testo=String.valueOf(g);
@@ -1564,7 +1560,11 @@ public class MastermindGUI extends javax.swing.JFrame {
         String testo=String.valueOf(p);
         j.setText(testo);*/
     
-
+    public boolean doppio(JButton a, JButton b, JButton c, JButton d) {
+        boolean dd=false;
+        if(a.getBackground().equals(b.getBackground()) || a.getBackground().equals(c.getBackground()) || a.getBackground().equals(d.getBackground()) || b.getBackground().equals(c.getBackground()) || b.getBackground().equals(d.getBackground()) || c.getBackground().equals(d.getBackground())) dd=true;
+        return dd;
+    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
