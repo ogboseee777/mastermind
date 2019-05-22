@@ -1197,7 +1197,16 @@ public class MastermindGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton56ActionPerformed
 
     private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
-        paragona(jButton41, jButton42, jButton43, jButton44, jLabel10, jLabel20);
+        int a = 0;
+        if(paragona(jButton41, jButton42, jButton43, jButton44, jLabel10, jLabel20)!=4) JOptionPane.showMessageDialog(this,"HAI PERSO", "HAI PERSO", JOptionPane.DEFAULT_OPTION);
+        else {
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
         blocco10=true;
     }//GEN-LAST:event_jButton54ActionPerformed
 
@@ -1207,6 +1216,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton53ActionPerformed
         blocco9=true;
+        int a = 0;
         if(paragona(jButton37, jButton38, jButton39, jButton40, jLabel9, jLabel19)!=4){
             jButton41.setEnabled(true);
             jButton42.setEnabled(true);
@@ -1214,7 +1224,13 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton44.setEnabled(true);
             jButton54.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "HAI VINTO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton53ActionPerformed
 
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
@@ -1223,6 +1239,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton52ActionPerformed
         blocco8=true;
+        int a = 0;
         if(paragona(jButton33, jButton34, jButton35, jButton36, jLabel8, jLabel18)!=4){
             jButton37.setEnabled(true);
             jButton38.setEnabled(true);
@@ -1230,7 +1247,13 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton40.setEnabled(true);
             jButton53.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "HAI VINTO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton52ActionPerformed
 
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
@@ -1267,6 +1290,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton51ActionPerformed
         blocco7=true;
+        int a = 0;
         if(paragona(jButton29, jButton30, jButton31, jButton32, jLabel7, jLabel17)!=4){
             jButton33.setEnabled(true);
             jButton34.setEnabled(true);
@@ -1274,11 +1298,18 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton36.setEnabled(true);
             jButton52.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton51ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
         blocco6=true;
+        int a = 0;
         if(paragona(jButton25, jButton26, jButton27, jButton28, jLabel6, jLabel16)!=4){
             jButton29.setEnabled(true);
             jButton30.setEnabled(true);
@@ -1286,11 +1317,18 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton32.setEnabled(true);
             jButton51.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton50ActionPerformed
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
         blocco5=true;
+        int a = 0;
         if(paragona(jButton21, jButton22, jButton23, jButton24, jLabel5, jLabel15)!=4){
             jButton25.setEnabled(true);
             jButton26.setEnabled(true);
@@ -1298,11 +1336,18 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton28.setEnabled(true);
             jButton50.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
         blocco4=true;
+        int a = 0;
         if(paragona(jButton17, jButton18, jButton19, jButton20, jLabel4,jLabel14)!=4){
             jButton21.setEnabled(true);
             jButton22.setEnabled(true);
@@ -1310,11 +1355,18 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton24.setEnabled(true);
             jButton49.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton48ActionPerformed
 
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
         blocco3=true;
+        int a = 0;
         if(paragona(jButton13, jButton14, jButton15, jButton16, jLabel3, jLabel13)!=4){
             jButton17.setEnabled(true);
             jButton18.setEnabled(true);
@@ -1322,11 +1374,18 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton20.setEnabled(true);
             jButton48.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton47ActionPerformed
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
         blocco2=true;
+        int a = 0;
         if(paragona(jButton9, jButton10, jButton11, jButton12, jLabel2, jLabel12)!=4){
             jButton13.setEnabled(true);
             jButton14.setEnabled(true);
@@ -1334,7 +1393,13 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton16.setEnabled(true);
             jButton47.setEnabled(true);
         }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
+        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
     }//GEN-LAST:event_jButton46ActionPerformed
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
@@ -1443,6 +1508,7 @@ public class MastermindGUI extends javax.swing.JFrame {
 
     private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
         blocco1=true;
+        int a = 0;
         if(paragona(jButton5, jButton6, jButton7, jButton8, jLabel1, jLabel11)!=4) {
             jButton9.setEnabled(true);
             jButton10.setEnabled(true);
@@ -1450,8 +1516,14 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton12.setEnabled(true);
             jButton46.setEnabled(true);
         }
-        else JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.YES_NO_OPTION);
-        
+        else {
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
         
     }//GEN-LAST:event_jButton45ActionPerformed
 
@@ -1610,9 +1682,121 @@ public class MastermindGUI extends javax.swing.JFrame {
         return g;
     }
     
+    public void resetta(){
+        blocco1=false;
+        blocco2=false;
+        blocco3=false;
+        blocco4=false;
+        blocco5=false;
+        blocco6=false;
+        blocco7=false;
+        blocco8=false;
+        blocco9=false;
+        blocco10=false;
         
+        jButton1.setVisible(true);
+        jButton2.setVisible(true);
+        jButton3.setVisible(true);
+        jButton4.setVisible(true);
+        jButton55.setVisible(true);
+        jButton1.setBackground(Color.BLUE);
+        jButton2.setBackground(Color.BLUE);
+        jButton3.setBackground(Color.BLUE);
+        jButton4.setBackground(Color.BLUE);
+        jButton5.setBackground(Color.BLUE);
+        jButton6.setBackground(Color.BLUE);
+        jButton7.setBackground(Color.BLUE);
+        jButton8.setBackground(Color.BLUE);
+        jButton9.setBackground(Color.BLUE);
+        jButton10.setBackground(Color.BLUE);
+        jButton11.setBackground(Color.BLUE);
+        jButton12.setBackground(Color.BLUE);
+        jButton13.setBackground(Color.BLUE);
+        jButton14.setBackground(Color.BLUE);
+        jButton15.setBackground(Color.BLUE);
+        jButton16.setBackground(Color.BLUE);
+        jButton17.setBackground(Color.BLUE);
+        jButton18.setBackground(Color.BLUE);
+        jButton19.setBackground(Color.BLUE);
+        jButton20.setBackground(Color.BLUE);
+        jButton21.setBackground(Color.BLUE);
+        jButton22.setBackground(Color.BLUE);
+        jButton23.setBackground(Color.BLUE);
+        jButton24.setBackground(Color.BLUE);
+        jButton25.setBackground(Color.BLUE);
+        jButton26.setBackground(Color.BLUE);
+        jButton27.setBackground(Color.BLUE);
+        jButton28.setBackground(Color.BLUE);
+        jButton29.setBackground(Color.BLUE);
+        jButton30.setBackground(Color.BLUE);
+        jButton31.setBackground(Color.BLUE);
+        jButton32.setBackground(Color.BLUE);
+        jButton33.setBackground(Color.BLUE);
+        jButton34.setBackground(Color.BLUE);
+        jButton35.setBackground(Color.BLUE);
+        jButton36.setBackground(Color.BLUE);
+        jButton37.setBackground(Color.BLUE);
+        jButton38.setBackground(Color.BLUE);
+        jButton39.setBackground(Color.BLUE);
+        jButton40.setBackground(Color.BLUE);
+        jButton41.setBackground(Color.BLUE);
+        jButton42.setBackground(Color.BLUE);
+        jButton43.setBackground(Color.BLUE);
+        jButton44.setBackground(Color.BLUE);
+        
+        jButton5.setEnabled(false);
+        jButton6.setEnabled(false);
+        jButton7.setEnabled(false);
+        jButton8.setEnabled(false);
+        jButton9.setEnabled(false);
+        jButton10.setEnabled(false);
+        jButton11.setEnabled(false);
+        jButton12.setEnabled(false);
+        jButton13.setEnabled(false);
+        jButton14.setEnabled(false);
+        jButton15.setEnabled(false);
+        jButton16.setEnabled(false);
+        jButton17.setEnabled(false);
+        jButton18.setEnabled(false);
+        jButton19.setEnabled(false);
+        jButton20.setEnabled(false);
+        jButton21.setEnabled(false);
+        jButton22.setEnabled(false);
+        jButton23.setEnabled(false);
+        jButton24.setEnabled(false);
+        jButton25.setEnabled(false);
+        jButton26.setEnabled(false);
+        jButton27.setEnabled(false);
+        jButton28.setEnabled(false);
+        jButton29.setEnabled(false);
+        jButton30.setEnabled(false);
+        jButton31.setEnabled(false);
+        jButton32.setEnabled(false);
+        jButton33.setEnabled(false);
+        jButton34.setEnabled(false);
+        jButton35.setEnabled(false);
+        jButton36.setEnabled(false);
+        jButton37.setEnabled(false);
+        jButton38.setEnabled(false);
+        jButton39.setEnabled(false);
+        jButton40.setEnabled(false);
+        jButton41.setEnabled(false);
+        jButton42.setEnabled(false);
+        jButton43.setEnabled(false);
+        jButton44.setEnabled(false);
+        jButton45.setEnabled(false);
+        jButton46.setEnabled(false);
+        jButton47.setEnabled(false);
+        jButton48.setEnabled(false);
+        jButton49.setEnabled(false);
+        jButton50.setEnabled(false);
+        jButton51.setEnabled(false);
+        jButton52.setEnabled(false);
+        jButton53.setEnabled(false);
+        jButton54.setEnabled(false);
     
-
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
