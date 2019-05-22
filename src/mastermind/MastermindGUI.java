@@ -5,10 +5,8 @@
  */
 package mastermind;
 import java.awt.Color;
-import java.awt.Shape;
 import javax.swing.*;
-import java.awt.geom.*;
-import javax.swing.border.Border;
+
 
 /**
  *
@@ -1206,8 +1204,10 @@ public class MastermindGUI extends javax.swing.JFrame {
         jButton4.setVisible(true);
         jButton55.setVisible(true);
         a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
-        blocco10=true;
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton54ActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
@@ -1224,13 +1224,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton44.setEnabled(true);
             jButton54.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton53ActionPerformed
 
     private void jButton40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton40ActionPerformed
@@ -1247,13 +1251,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton40.setEnabled(true);
             jButton53.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+    }
     }//GEN-LAST:event_jButton52ActionPerformed
 
     private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
@@ -1298,13 +1306,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton36.setEnabled(true);
             jButton52.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton51ActionPerformed
 
     private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
@@ -1317,13 +1329,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton32.setEnabled(true);
             jButton51.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton50ActionPerformed
 
     private void jButton49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton49ActionPerformed
@@ -1336,13 +1352,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton28.setEnabled(true);
             jButton50.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton49ActionPerformed
 
     private void jButton48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton48ActionPerformed
@@ -1355,13 +1375,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton24.setEnabled(true);
             jButton49.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton48ActionPerformed
 
     private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
@@ -1374,13 +1398,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton20.setEnabled(true);
             jButton48.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();
+        }
     }//GEN-LAST:event_jButton47ActionPerformed
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
@@ -1393,13 +1421,17 @@ public class MastermindGUI extends javax.swing.JFrame {
             jButton16.setEnabled(true);
             jButton47.setEnabled(true);
         }
-        else {a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        else {
         jButton1.setVisible(true);
         jButton2.setVisible(true);
         jButton3.setVisible(true);
         jButton4.setVisible(true);
         jButton55.setVisible(true);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();          
+        }
     }//GEN-LAST:event_jButton46ActionPerformed
 
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
@@ -1523,7 +1555,10 @@ public class MastermindGUI extends javax.swing.JFrame {
         jButton4.setVisible(true);
         jButton55.setVisible(true);
         a=JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.DEFAULT_OPTION);
-        if(a==JOptionPane.DEFAULT_OPTION) resetta();}
+        if(a==JOptionPane.DEFAULT_OPTION)
+            initComponents();
+            resetta();         
+        }
         
     }//GEN-LAST:event_jButton45ActionPerformed
 
@@ -1794,6 +1829,27 @@ public class MastermindGUI extends javax.swing.JFrame {
         jButton52.setEnabled(false);
         jButton53.setEnabled(false);
         jButton54.setEnabled(false);
+        
+        jLabel1.setText("-");
+        jLabel2.setText("-");
+        jLabel3.setText("-");
+        jLabel4.setText("-");
+        jLabel5.setText("-");
+        jLabel6.setText("-");
+        jLabel7.setText("-");
+        jLabel8.setText("-");
+        jLabel9.setText("-");
+        jLabel10.setText("-");
+        jLabel11.setText("-");
+        jLabel12.setText("-");
+        jLabel13.setText("-");
+        jLabel14.setText("-");
+        jLabel15.setText("-");
+        jLabel16.setText("-");
+        jLabel17.setText("-");
+        jLabel18.setText("-");
+        jLabel19.setText("-");
+        jLabel20.setText("-");
     
     }
     
