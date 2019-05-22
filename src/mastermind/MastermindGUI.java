@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package main.java.com.mycompany.mastermind;
+package mastermind;
 import java.awt.Color;
 import java.awt.Shape;
 import javax.swing.*;
@@ -25,7 +25,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         
         setResizable(false);
         
-        istruzioni(jButton56);
+        
         jButton1.setBackground(Color.BLUE);
         jButton2.setBackground(Color.BLUE);
         jButton3.setBackground(Color.BLUE);
@@ -227,11 +227,11 @@ public class MastermindGUI extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(600, 100));
 
-        jPanel1.setBackground(new java.awt.Color(51, 153, 0));
+        jPanel1.setBackground(new java.awt.Color(0, 102, 0));
         jPanel1.setPreferredSize(new java.awt.Dimension(380, 750));
 
         jButton1.setText(" ");
-        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton1.setName("0"); // NOI18N
         jButton1.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -241,7 +241,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton2.setText(" ");
-        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton2.setName("0"); // NOI18N
         jButton2.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -251,7 +251,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton3.setText(" ");
-        jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton3.setName("0"); // NOI18N
         jButton3.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -261,7 +261,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton4.setText(" ");
-        jButton4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton4.setName("0"); // NOI18N
         jButton4.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -271,7 +271,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton55.setText("OK");
-        jButton55.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton55.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton55.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton55.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -280,7 +280,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton5.setText(" ");
-        jButton5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton5.setName("0"); // NOI18N
         jButton5.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -290,7 +290,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton6.setText(" ");
-        jButton6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton6.setName("0"); // NOI18N
         jButton6.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton6.addActionListener(new java.awt.event.ActionListener() {
@@ -300,7 +300,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton7.setText(" ");
-        jButton7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton7.setName("0"); // NOI18N
         jButton7.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -310,7 +310,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton8.setText(" ");
-        jButton8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton8.setName("0"); // NOI18N
         jButton8.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -320,7 +320,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton45.setText("OK");
-        jButton45.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton45.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton45.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton45.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -329,7 +329,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton42.setText(" ");
-        jButton42.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton42.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton42.setName("0"); // NOI18N
         jButton42.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton42.addActionListener(new java.awt.event.ActionListener() {
@@ -339,7 +339,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton43.setText(" ");
-        jButton43.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton43.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton43.setName("0"); // NOI18N
         jButton43.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton43.addActionListener(new java.awt.event.ActionListener() {
@@ -349,7 +349,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton44.setText(" ");
-        jButton44.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton44.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton44.setName("0"); // NOI18N
         jButton44.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton44.addActionListener(new java.awt.event.ActionListener() {
@@ -360,48 +360,48 @@ public class MastermindGUI extends javax.swing.JFrame {
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("-");
-        jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel1.setOpaque(true);
         jLabel1.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("-");
-        jLabel2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel2.setOpaque(true);
         jLabel2.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("-");
-        jLabel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel3.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel3.setOpaque(true);
         jLabel3.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("-");
-        jLabel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel4.setOpaque(true);
         jLabel4.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setText("-");
-        jLabel5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel5.setOpaque(true);
         jLabel5.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setText("-");
-        jLabel6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel6.setOpaque(true);
         jLabel6.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel7.setText("-");
-        jLabel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel7.setOpaque(true);
         jLabel7.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton9.setText(" ");
-        jButton9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton9.setName("0"); // NOI18N
         jButton9.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton9.addActionListener(new java.awt.event.ActionListener() {
@@ -411,7 +411,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton10.setText(" ");
-        jButton10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton10.setName("0"); // NOI18N
         jButton10.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton10.addActionListener(new java.awt.event.ActionListener() {
@@ -421,7 +421,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton11.setText(" ");
-        jButton11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton11.setName("0"); // NOI18N
         jButton11.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton11.addActionListener(new java.awt.event.ActionListener() {
@@ -431,7 +431,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton12.setText(" ");
-        jButton12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton12.setName("0"); // NOI18N
         jButton12.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton12.addActionListener(new java.awt.event.ActionListener() {
@@ -441,7 +441,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton13.setText(" ");
-        jButton13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton13.setName("0"); // NOI18N
         jButton13.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton13.addActionListener(new java.awt.event.ActionListener() {
@@ -451,7 +451,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton14.setText(" ");
-        jButton14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton14.setName("0"); // NOI18N
         jButton14.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton14.addActionListener(new java.awt.event.ActionListener() {
@@ -461,7 +461,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton15.setText(" ");
-        jButton15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton15.setName("0"); // NOI18N
         jButton15.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton15.addActionListener(new java.awt.event.ActionListener() {
@@ -471,7 +471,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton16.setText(" ");
-        jButton16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton16.setName("0"); // NOI18N
         jButton16.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton16.addActionListener(new java.awt.event.ActionListener() {
@@ -481,7 +481,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton17.setText(" ");
-        jButton17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton17.setName("0"); // NOI18N
         jButton17.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton17.addActionListener(new java.awt.event.ActionListener() {
@@ -491,7 +491,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton18.setText(" ");
-        jButton18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton18.setName("0"); // NOI18N
         jButton18.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton18.addActionListener(new java.awt.event.ActionListener() {
@@ -501,7 +501,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton19.setText(" ");
-        jButton19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton19.setName("0"); // NOI18N
         jButton19.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton19.addActionListener(new java.awt.event.ActionListener() {
@@ -512,12 +512,12 @@ public class MastermindGUI extends javax.swing.JFrame {
 
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("-");
-        jLabel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel8.setOpaque(true);
         jLabel8.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton20.setText(" ");
-        jButton20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton20.setName("0"); // NOI18N
         jButton20.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton20.addActionListener(new java.awt.event.ActionListener() {
@@ -528,12 +528,12 @@ public class MastermindGUI extends javax.swing.JFrame {
 
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel9.setText("-");
-        jLabel9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel9.setOpaque(true);
         jLabel9.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton21.setText(" ");
-        jButton21.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton21.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton21.setName("0"); // NOI18N
         jButton21.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton21.addActionListener(new java.awt.event.ActionListener() {
@@ -545,61 +545,61 @@ public class MastermindGUI extends javax.swing.JFrame {
         jLabel10.setBackground(new java.awt.Color(255, 255, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel10.setText("-");
-        jLabel10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel10.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel10.setOpaque(true);
         jLabel10.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel11.setBackground(new java.awt.Color(255, 30, 30));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel11.setText("-");
-        jLabel11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel11.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel11.setOpaque(true);
         jLabel11.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel12.setBackground(new java.awt.Color(255, 30, 30));
         jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel12.setText("-");
-        jLabel12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel12.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel12.setOpaque(true);
         jLabel12.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel13.setBackground(new java.awt.Color(255, 30, 30));
         jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel13.setText("-");
-        jLabel13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel13.setOpaque(true);
         jLabel13.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel14.setBackground(new java.awt.Color(255, 30, 30));
         jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel14.setText("-");
-        jLabel14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel14.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel14.setOpaque(true);
         jLabel14.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel15.setBackground(new java.awt.Color(255, 30, 30));
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setText("-");
-        jLabel15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel15.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel15.setOpaque(true);
         jLabel15.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel16.setBackground(new java.awt.Color(255, 30, 30));
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("-");
-        jLabel16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel16.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel16.setOpaque(true);
         jLabel16.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jLabel17.setBackground(new java.awt.Color(255, 30, 30));
         jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel17.setText("-");
-        jLabel17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel17.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel17.setOpaque(true);
         jLabel17.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton22.setText(" ");
-        jButton22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton22.setName("0"); // NOI18N
         jButton22.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton22.addActionListener(new java.awt.event.ActionListener() {
@@ -609,7 +609,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton23.setText(" ");
-        jButton23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton23.setName("0"); // NOI18N
         jButton23.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton23.addActionListener(new java.awt.event.ActionListener() {
@@ -619,7 +619,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton24.setText(" ");
-        jButton24.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton24.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton24.setName("0"); // NOI18N
         jButton24.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton24.addActionListener(new java.awt.event.ActionListener() {
@@ -629,7 +629,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton25.setText(" ");
-        jButton25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton25.setName("0"); // NOI18N
         jButton25.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton25.addActionListener(new java.awt.event.ActionListener() {
@@ -639,7 +639,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton26.setText(" ");
-        jButton26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton26.setName("0"); // NOI18N
         jButton26.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton26.addActionListener(new java.awt.event.ActionListener() {
@@ -649,7 +649,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton27.setText(" ");
-        jButton27.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton27.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton27.setName("0"); // NOI18N
         jButton27.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton27.addActionListener(new java.awt.event.ActionListener() {
@@ -659,7 +659,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton28.setText(" ");
-        jButton28.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton28.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton28.setName("0"); // NOI18N
         jButton28.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton28.addActionListener(new java.awt.event.ActionListener() {
@@ -669,7 +669,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton29.setText(" ");
-        jButton29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton29.setName("0"); // NOI18N
         jButton29.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton29.addActionListener(new java.awt.event.ActionListener() {
@@ -681,12 +681,12 @@ public class MastermindGUI extends javax.swing.JFrame {
         jLabel18.setBackground(new java.awt.Color(255, 30, 30));
         jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel18.setText("-");
-        jLabel18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel18.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel18.setOpaque(true);
         jLabel18.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton30.setText(" ");
-        jButton30.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton30.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton30.setName("0"); // NOI18N
         jButton30.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton30.addActionListener(new java.awt.event.ActionListener() {
@@ -698,12 +698,12 @@ public class MastermindGUI extends javax.swing.JFrame {
         jLabel19.setBackground(new java.awt.Color(255, 30, 30));
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel19.setText("-");
-        jLabel19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel19.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel19.setOpaque(true);
         jLabel19.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton31.setText(" ");
-        jButton31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton31.setName("0"); // NOI18N
         jButton31.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton31.addActionListener(new java.awt.event.ActionListener() {
@@ -715,12 +715,12 @@ public class MastermindGUI extends javax.swing.JFrame {
         jLabel20.setBackground(new java.awt.Color(255, 30, 30));
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setText("-");
-        jLabel20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jLabel20.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 0, 0)));
         jLabel20.setOpaque(true);
         jLabel20.setPreferredSize(new java.awt.Dimension(20, 20));
 
         jButton46.setText("OK");
-        jButton46.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton46.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton46.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton46.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -729,7 +729,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton47.setText("OK");
-        jButton47.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton47.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton47.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton47.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -738,7 +738,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton48.setText("OK");
-        jButton48.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton48.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton48.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton48.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -747,7 +747,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton49.setText("OK");
-        jButton49.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton49.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton49.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton49.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -756,7 +756,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton50.setText("OK");
-        jButton50.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton50.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton50.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton50.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -765,7 +765,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton51.setText("OK");
-        jButton51.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton51.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton51.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton51.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -774,7 +774,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton32.setText(" ");
-        jButton32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton32.setName("0"); // NOI18N
         jButton32.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton32.addActionListener(new java.awt.event.ActionListener() {
@@ -784,7 +784,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton33.setText(" ");
-        jButton33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton33.setName("0"); // NOI18N
         jButton33.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton33.addActionListener(new java.awt.event.ActionListener() {
@@ -794,7 +794,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton34.setText(" ");
-        jButton34.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton34.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton34.setName("0"); // NOI18N
         jButton34.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton34.addActionListener(new java.awt.event.ActionListener() {
@@ -804,7 +804,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton35.setText(" ");
-        jButton35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton35.setName("0"); // NOI18N
         jButton35.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton35.addActionListener(new java.awt.event.ActionListener() {
@@ -814,7 +814,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton36.setText(" ");
-        jButton36.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton36.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton36.setName("0"); // NOI18N
         jButton36.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton36.addActionListener(new java.awt.event.ActionListener() {
@@ -824,7 +824,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton37.setText(" ");
-        jButton37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton37.setName("0"); // NOI18N
         jButton37.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton37.addActionListener(new java.awt.event.ActionListener() {
@@ -834,7 +834,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton38.setText(" ");
-        jButton38.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton38.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton38.setName("0"); // NOI18N
         jButton38.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton38.addActionListener(new java.awt.event.ActionListener() {
@@ -844,7 +844,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton39.setText(" ");
-        jButton39.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton39.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton39.setName("0"); // NOI18N
         jButton39.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton39.addActionListener(new java.awt.event.ActionListener() {
@@ -854,7 +854,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton52.setText("OK");
-        jButton52.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton52.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton52.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton52.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -863,7 +863,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton40.setText(" ");
-        jButton40.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton40.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton40.setName("0"); // NOI18N
         jButton40.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton40.addActionListener(new java.awt.event.ActionListener() {
@@ -873,7 +873,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton53.setText("OK");
-        jButton53.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton53.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton53.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton53.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -882,7 +882,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton41.setText(" ");
-        jButton41.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton41.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton41.setName("0"); // NOI18N
         jButton41.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton41.addActionListener(new java.awt.event.ActionListener() {
@@ -892,7 +892,7 @@ public class MastermindGUI extends javax.swing.JFrame {
         });
 
         jButton54.setText("OK");
-        jButton54.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(51, 153, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(51, 153, 0), new java.awt.Color(51, 153, 0)));
+        jButton54.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 102, 0), new java.awt.Color(0, 0, 0), new java.awt.Color(0, 102, 0), new java.awt.Color(0, 102, 0)));
         jButton54.setPreferredSize(new java.awt.Dimension(50, 50));
         jButton54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -900,14 +900,11 @@ public class MastermindGUI extends javax.swing.JFrame {
             }
         });
 
-        jButton56.setBackground(new java.awt.Color(0, 0, 255));
+        jButton56.setBackground(new java.awt.Color(0, 0, 102));
         jButton56.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jButton56.setForeground(new java.awt.Color(255, 255, 255));
-        jButton56.setBounds(jButton56.getX(), jButton56.getY(), jButton56.getWidth(), jButton56.getHeight());
-        jButton56.setBorder(new RoundedBorder(100)); //10 is the radius
-        jButton56.setForeground(Color.WHITE);
+        jButton56.setText("Info");
         jButton56.setBorder(null);
-        jButton56.setLabel("i");
         jButton56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton56ActionPerformed(evt);
@@ -1177,38 +1174,27 @@ public class MastermindGUI extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton56ActionPerformed
-        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, "Benvenuti su Mastermind!"
+                                          + "\nAll'avvio del gioco un giocatore (il codificatore) deve inventare una sequenza di colori"
+                                          + "\nche un altro giocatore (il decifratore) deve indovinare al massimo in 10 tentativi."
+                                          + "\nI quadratini bianchi a sinistra del gioco indicano il numero di colori giusti nella"
+                                          + "\nposizione giusta mentre quelli rossi indicano il numero di colori giusti nella posizione"
+                                          + "\nsbagliata."
+                                          + "\nPer cambiare colori basta cliccare più volte ciascun quadrato. Premere OK per confermare"
+                                          + "\nla propria sequenza e andare avanti nel gioco"
+                                          + "\nBUON DIVERTIMENTO! :)", "Istruzioni del gioco",JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_jButton56ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        cambiaColore(jButton1, jButton1.getName());
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
-
-        jButton1.setVisible(false);
-        jButton2.setVisible(false);
-        jButton3.setVisible(false);
-        jButton4.setVisible(false);
-        jButton55.setVisible(false);
-
-        jButton5.setEnabled(true);
-        jButton6.setEnabled(true);
-        jButton7.setEnabled(true);
-        jButton8.setEnabled(true);
-        jButton45.setEnabled(true);
-    }//GEN-LAST:event_jButton55ActionPerformed
 
     private void jButton54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton54ActionPerformed
         paragona(jButton41, jButton42, jButton43, jButton44, jLabel10, jLabel20);
@@ -1351,18 +1337,6 @@ public class MastermindGUI extends javax.swing.JFrame {
         else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
     }//GEN-LAST:event_jButton46ActionPerformed
 
-    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
-        blocco1=true;
-        if(paragona(jButton5, jButton6, jButton7, jButton8, jLabel1, jLabel11)!=4) {
-            jButton9.setEnabled(true);
-            jButton10.setEnabled(true);
-            jButton11.setEnabled(true);
-            jButton12.setEnabled(true);
-            jButton46.setEnabled(true);
-        }
-        else JOptionPane.showMessageDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.INFORMATION_MESSAGE);
-    }//GEN-LAST:event_jButton45ActionPerformed
-
     private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
         if (blocco7==false) cambiaColore(jButton31, jButton31.getName());
     }//GEN-LAST:event_jButton31ActionPerformed
@@ -1455,6 +1429,32 @@ public class MastermindGUI extends javax.swing.JFrame {
         if (blocco2==false) cambiaColore(jButton9, jButton9.getName());
     }//GEN-LAST:event_jButton9ActionPerformed
 
+    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
+        if (blocco10==false) cambiaColore(jButton44, jButton44.getName());
+    }//GEN-LAST:event_jButton44ActionPerformed
+
+    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
+        if (blocco10==false) cambiaColore(jButton43, jButton43.getName());
+    }//GEN-LAST:event_jButton43ActionPerformed
+
+    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
+        if (blocco10==false) cambiaColore(jButton42, jButton42.getName());
+    }//GEN-LAST:event_jButton42ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+        blocco1=true;
+        if(paragona(jButton5, jButton6, jButton7, jButton8, jLabel1, jLabel11)!=4) {
+            jButton9.setEnabled(true);
+            jButton10.setEnabled(true);
+            jButton11.setEnabled(true);
+            jButton12.setEnabled(true);
+            jButton46.setEnabled(true);
+        }
+        else JOptionPane.showConfirmDialog(this,"HAI VINTO", "FINE DEL GIOCO", JOptionPane.YES_NO_OPTION);
+        
+        
+    }//GEN-LAST:event_jButton45ActionPerformed
+
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         if (blocco1==false) cambiaColore(jButton8, jButton8.getName());
     }//GEN-LAST:event_jButton8ActionPerformed
@@ -1471,6 +1471,21 @@ public class MastermindGUI extends javax.swing.JFrame {
         if (blocco1==false)cambiaColore(jButton5, jButton5.getName());
     }//GEN-LAST:event_jButton5ActionPerformed
 
+    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+
+        jButton1.setVisible(false);
+        jButton2.setVisible(false);
+        jButton3.setVisible(false);
+        jButton4.setVisible(false);
+        jButton55.setVisible(false);
+
+        jButton5.setEnabled(true);
+        jButton6.setEnabled(true);
+        jButton7.setEnabled(true);
+        jButton8.setEnabled(true);
+        jButton45.setEnabled(true);
+    }//GEN-LAST:event_jButton55ActionPerformed
+
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         cambiaColore(jButton4, jButton4.getName());
     }//GEN-LAST:event_jButton4ActionPerformed
@@ -1483,17 +1498,9 @@ public class MastermindGUI extends javax.swing.JFrame {
         cambiaColore(jButton2, jButton2.getName());
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton44ActionPerformed
-        if (blocco10==false) cambiaColore(jButton44, jButton44.getName());
-    }//GEN-LAST:event_jButton44ActionPerformed
-
-    private void jButton43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton43ActionPerformed
-        if (blocco10==false) cambiaColore(jButton43, jButton43.getName());
-    }//GEN-LAST:event_jButton43ActionPerformed
-
-    private void jButton42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton42ActionPerformed
-        if (blocco10==false) cambiaColore(jButton42, jButton42.getName());
-    }//GEN-LAST:event_jButton42ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        cambiaColore(jButton1, jButton1.getName());
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1580,21 +1587,21 @@ public class MastermindGUI extends javax.swing.JFrame {
         if (jButton3.getBackground().equals(c.getBackground())) {bol3=true; bolc=true;g++;}
         if (jButton4.getBackground().equals(d.getBackground())) {bol4=true; bold=true;g++;}
         
-        if((jButton1.getBackground().equals(b.getBackground())) && (bol1==false) && (bol2==false) && (bolb==false)) {System.out.println("1");s++; bolb=true; }
-        else if((jButton1.getBackground().equals(c.getBackground())) && (bol1==false) && (bol3==false)&& (bolc==false)) {System.out.println("2");s++; bolc=true;}
-        else if((jButton1.getBackground().equals(d.getBackground())) && (bol1==false) && (bol4==false)&& (bold==false)) {System.out.println("3");s++; bold=true;}
+        if((jButton1.getBackground().equals(b.getBackground())) && (bol1==false) && (bol2==false) && (bolb==false)) {System.out.println("1"); s++; bolb=true; }
+        else if((jButton1.getBackground().equals(c.getBackground())) && (bol1==false) && (bol3==false)&& (bolc==false)) {System.out.println("2"); s++; bolc=true;}
+        else if((jButton1.getBackground().equals(d.getBackground())) && (bol1==false) && (bol4==false)&& (bold==false)) {System.out.println("3"); s++; bold=true;}
         
-        if((jButton2.getBackground().equals(a.getBackground())) && (bol2==false) && (bol1==false)&& (bola==false)) {System.out.println("4");s++; bola=true;}
-        else if((jButton2.getBackground().equals(c.getBackground())) && (bol2==false) && (bol3==false)&& (bolc==false)) {System.out.println("5");s++; bolc=true;}
-        else if((jButton2.getBackground().equals(d.getBackground())) && (bol2==false) && (bol4==false)&& (bold==false)) {System.out.println("6");s++; bold=true;}
+        if((jButton2.getBackground().equals(a.getBackground())) && (bol2==false) && (bol1==false)&& (bola==false)) {System.out.println("4"); s++; bola=true;}
+        else if((jButton2.getBackground().equals(c.getBackground())) && (bol2==false) && (bol3==false)&& (bolc==false)) {System.out.println("5"); s++; bolc=true;}
+        else if((jButton2.getBackground().equals(d.getBackground())) && (bol2==false) && (bol4==false)&& (bold==false)) {System.out.println("6"); s++; bold=true;}
         
-        if((jButton3.getBackground().equals(a.getBackground())) && (bol3==false) && (bol1==false)&& (bola==false)) {System.out.println("7");s++; bola=true;}
-        else if((jButton3.getBackground().equals(b.getBackground())) && (bol3==false) && (bol2==false)&& (bolb==false)) {System.out.println("8");s++; bolb=true;}
-        else if((jButton3.getBackground().equals(d.getBackground())) && (bol3==false) && (bol4==false)&& (bold==false)) {System.out.println("9");s++; bold=true;}
+        if((jButton3.getBackground().equals(a.getBackground())) && (bol3==false) && (bol1==false)&& (bola==false)) {System.out.println("7"); s++; bola=true;}
+        else if((jButton3.getBackground().equals(b.getBackground())) && (bol3==false) && (bol2==false)&& (bolb==false)) {System.out.println("8"); s++; bolb=true;}
+        else if((jButton3.getBackground().equals(d.getBackground())) && (bol3==false) && (bol4==false)&& (bold==false)) {System.out.println("9"); s++; bold=true;}
         
-        if((jButton4.getBackground().equals(a.getBackground())) && (bol4==false) && (bol1==false)&& (bola==false)) {System.out.println("10");s++; bola=true;}
-        else if((jButton4.getBackground().equals(b.getBackground())) && (bol4==false) && (bol2==false)&& (bolb==false)) {System.out.println("11");s++; bolb=true;}
-        else if((jButton4.getBackground().equals(c.getBackground())) && (bol4==false) && (bol3==false)&& (bolc==false)) {System.out.println("12");s++; bolc=true;}
+        if((jButton4.getBackground().equals(a.getBackground())) && (bol4==false) && (bol1==false)&& (bola==false)) {System.out.println("10"); s++; bola=true;}
+        else if((jButton4.getBackground().equals(b.getBackground())) && (bol4==false) && (bol2==false)&& (bolb==false)) {System.out.println("11"); s++; bolb=true;}
+        else if((jButton4.getBackground().equals(c.getBackground())) && (bol4==false) && (bol3==false)&& (bolc==false)) {System.out.println("12"); s++; bolc=true;}
         
         String testo=String.valueOf(g);
         j.setText(testo);
@@ -1602,12 +1609,9 @@ public class MastermindGUI extends javax.swing.JFrame {
         k.setText(numero);
         return g;
     }
-    Shape shape;
-    public boolean istruzioni(JButton a){
-        shape = new Ellipse2D.Float(0, 0, a.getWidth(), a.getHeight());
-        return shape.contains(a.getX(), a.getY());
+    
         
-    }
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
