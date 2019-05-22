@@ -5,12 +5,16 @@
  */
 package main.java.com.mycompany.mastermind;
 import java.awt.Color;
+import java.awt.Shape;
 import javax.swing.*;
+import java.awt.geom.*;
+import javax.swing.border.Border;
 
 /**
  *
  * @author Giulio, Andrea
  */
+
 public class MastermindGUI extends javax.swing.JFrame {
 
     /**
@@ -19,7 +23,9 @@ public class MastermindGUI extends javax.swing.JFrame {
     public MastermindGUI() {
         initComponents();
         
-        jButton56.setBackground(new Color(28, 53, 219));
+        setResizable(false);
+        
+        istruzioni(jButton56);
         jButton1.setBackground(Color.BLUE);
         jButton2.setBackground(Color.BLUE);
         jButton3.setBackground(Color.BLUE);
@@ -894,8 +900,12 @@ public class MastermindGUI extends javax.swing.JFrame {
             }
         });
 
+        jButton56.setBackground(new java.awt.Color(0, 0, 153));
         jButton56.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jButton56.setForeground(new java.awt.Color(255, 255, 255));
+        jButton56.setBounds(jButton56.getX(), jButton56.getY(), 30, 25);
+        jButton56.setBorder(new RoundedBorder(10)); //10 is the radius
+        jButton56.setForeground(Color.BLUE);
         jButton56.setBorder(null);
         jButton56.setLabel("i");
         jButton56.addActionListener(new java.awt.event.ActionListener() {
@@ -1029,9 +1039,7 @@ public class MastermindGUI extends javax.swing.JFrame {
                             .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jButton55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap())
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, 0))))
+                    .addComponent(jButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1059,7 +1067,7 @@ public class MastermindGUI extends javax.swing.JFrame {
                     .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
                 .addComponent(jButton56, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -1585,6 +1593,12 @@ public class MastermindGUI extends javax.swing.JFrame {
         String numero=String.valueOf(s);
         k.setText(numero);
         return g;
+    }
+    Shape shape;
+    public boolean istruzioni(JButton a){
+        shape = new Ellipse2D.Float(0, 0, a.getWidth(), a.getHeight());
+        return shape.contains(a.getX(), a.getY());
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
