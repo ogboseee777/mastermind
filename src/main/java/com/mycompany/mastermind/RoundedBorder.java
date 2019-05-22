@@ -6,6 +6,7 @@
 package main.java.com.mycompany.mastermind;
 
 import java.awt.*;
+import javax.swing.border.Border;
 
 /**
  *
